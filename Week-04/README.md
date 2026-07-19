@@ -1,95 +1,89 @@
-# Azure ADF Data Pipeline
+# Week 04 - Azure Data Factory Pipeline Implementation
 
 ## Overview
 
-This project demonstrates the implementation of an end-to-end Azure Data Pipeline using Azure Blob Storage and Azure Data Factory (ADF). The pipeline validates the source file using the Get Metadata activity and copies the CSV file from the source Blob container to a destination Blob container.
+This assignment focused on building an ETL (Extract, Transform, Load) pipeline using Azure Data Factory (ADF). The objective was to understand cloud-based data integration by creating pipelines to move and transform data between different sources.
 
 ---
 
 ## Objectives
 
-- Understand Azure Resource Groups
-- Create and configure Azure Storage Account
-- Upload CSV files to Blob Storage
-- Create Azure Data Factory
-- Configure Linked Services
-- Create Source and Destination Datasets
-- Validate source files using Get Metadata
-- Build and execute Copy Data Pipeline
-- Assign IAM Roles for secure access
+- Understand Azure Data Factory architecture.
+- Create Linked Services.
+- Configure Datasets.
+- Build Data Pipelines.
+- Execute Copy Activities.
+- Monitor pipeline execution.
 
 ---
 
-## Azure Services Used
+## Technologies Used
 
-- Azure Resource Group
-- Azure Storage Account
-- Azure Blob Storage
+- Microsoft Azure
 - Azure Data Factory
-- Azure IAM (Role Based Access Control)
+- Azure Storage
+- SQL Database
 
 ---
 
-## Project Architecture
+## Components Used
 
-Source CSV (Blob Storage)
-↓
-Get Metadata
-↓
-Copy Data Activity
-↓
-Destination Blob Storage
+### Linked Services
+
+Created connections between Azure Data Factory and data sources.
+
+### Datasets
+
+Configured source and destination datasets.
+
+### Pipelines
+
+Built pipelines to automate data movement.
+
+### Copy Activity
+
+Copied data between source and destination systems.
+
+### Monitoring
+
+Verified successful execution through Azure Monitor.
+
+---
+
+## Workflow
+
+1. Create Resource Group.
+2. Create Storage Account.
+3. Create Azure Data Factory.
+4. Configure Linked Services.
+5. Create Datasets.
+6. Build Pipeline.
+7. Execute Pipeline.
+8. Monitor Pipeline Execution.
+
+---
+
+## Learning Outcomes
+
+- Cloud ETL concepts
+- Pipeline orchestration
+- Data movement automation
+- Azure Data Factory fundamentals
 
 ---
 
 ## Repository Structure
 
 ```
-Azure-ADF-Data-Pipeline
+Week-04-Azure-Data-Factory
 │
 ├── README.md
-├── adf
-│   ├── linked-service.md
-│   ├── datasets.md
-│   └── pipeline.md
-├── documentation
-│   └── Azure_ADF_Data_Pipeline_Report.md
-└── screenshots
+├── pipeline.json
+└── screenshots/
 ```
 
 ---
 
-## Project Workflow
+## Conclusion
 
-1. Created Azure Resource Group
-2. Created Azure Storage Account
-3. Created Blob Containers
-4. Uploaded Superstore.csv
-5. Created Azure Data Factory
-6. Configured Linked Service
-7. Created Source and Destination Datasets
-8. Added Get Metadata Activity
-9. Added Copy Data Activity
-10. Executed Pipeline Successfully
-11. Verified Output File
-12. Configured IAM Roles
-
----
-
-## Outcome
-
-- Successfully validated source metadata
-- Successfully copied CSV file
-- Pipeline executed without errors
-- Output file generated in destination Blob Storage
-
----
-
-## Author
-
-**Abhishek Raj**
-
-B.Tech Computer Science Engineering
-
-DIT University
-
+This assignment provided practical exposure to cloud-based data engineering by implementing an end-to-end ETL pipeline using Azure Data Factory. It demonstrated how enterprise-scale data integration workflows can be automated efficiently.
