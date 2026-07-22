@@ -1,0 +1,521 @@
+user_id,transaction_date,transaction_id,store_id,region,city,state,product_category,product_name,sale_amount,price,quantity,status,age,subscription,email,username,raw_timestamp
+U055,2024-03-12,T00001,S003,East,Philadelphia,PA,Sports,Cricket Bat,1369.66,,2,Pending,22,Premium,user1@gmail.com,user1,2024-01-02 05:44:00
+U006,2024-03-29,T00002,S004,North,Chicago,IL,Electronics,Keyboard,551.29,551.29,1,Cancelled,21,Basic,user2@gmail.com,user2,2024-06-03 08:51:00
+U009,2024-04-02,T00003,S001,West,Seattle,WA,Books,Spark Handbook,6652.35,1330.47,5,Cancelled,25,Basic,user3@gmail.com,user3,2024-05-27 06:45:00
+U027,2024-04-03,T00004,S003,West,Los Angeles,CA,Electronics,Keyboard,2073.15,691.05,3,Cancelled,39,Premium,user4@gmail.com,user4,2024-02-11 11:22:00
+U088,2024-06-12,T00005,S003,East,Philadelphia,PA,Furniture,Table,2326.36,581.59,4,Delivered,25,Premium,user5@gmail.com,user5,2024-06-25 17:14:00
+U064,2024-05-25,T00006,S004,North,Detroit,MI,Books,Python Book,2742.88,1371.44,2,,32,Premium,user6@gmail.com,user6,2024-03-21 06:41:00
+U018,2024-05-29,T00007,S005,North,Chicago,IL,Furniture,Desk,3270.4,654.08,5,Pending,20,Premium,user7@gmail.com,user7,2024-04-12 11:14:00
+U033,2024-04-07,T00008,S005,West,Los Angeles,CA,Furniture,Sofa,570.1,114.02,5,Delivered,39,Premium,,user8,2024-06-01 14:33:00
+U093,2024-04-26,T00009,S003,North,Minneapolis,MN,Books,Python Book,1990.35,663.45,3,Cancelled,42,Premium,user9@gmail.com,user9,2024-01-01 23:56:00
+U100,2024-02-09,T00010,S005,West,Seattle,WA,Books,Spark Handbook,4606.4,921.28,5,Delivered,37,Basic,user10@gmail.com,user10,2024-04-05 05:34:00
+U094,2024-03-02,T00011,S004,South,Dallas,TX,Electronics,Monitor,1123.17,374.39,3,Delivered,42,Premium,user11@gmail.com,user11,2024-05-25 02:05:00
+U070,2024-06-04,T00012,S002,East,Philadelphia,PA,Clothing,Jeans,824.56,412.28,2,Cancelled,27,Basic,user12@gmail.com,user12,2024-04-18 06:59:00
+U071,2024-01-17,T00013,S002,North,Detroit,MI,Sports,Cricket Bat,386.9,386.9,1,Cancelled,25,Premium,,user13,2024-03-27 00:37:00
+U036,2024-03-25,T00014,S004,West,Seattle,WA,Electronics,Phone,1360.02,1360.02,1,Delivered,35,Premium,user14@gmail.com,user14,2024-01-19 16:15:00
+U053,2024-06-17,T00015,S004,South,Dallas,TX,Clothing,T-Shirt,319.2,159.6,2,,19,Premium,user15@gmail.com,user15,2024-04-20 11:27:00
+U024,2024-05-17,T00016,S003,West,San Francisco,CA,Books,Python Book,607.1,303.55,2,Pending,25,Premium,user16@gmail.com,user16,2024-04-24 04:27:00
+U063,2024-01-24,T00017,S004,South,Miami,FL,Electronics,Laptop,6286.6,1257.32,5,,45,Basic,user17@gmail.com,,2024-03-01 05:26:00
+U094,2024-04-26,T00018,S005,West,Los Angeles,CA,Clothing,Jacket,1650.0,412.5,4,Cancelled,40,Basic,user18@gmail.com,user18,2024-03-14 13:44:00
+U008,2024-05-18,T00019,S001,East,New York,NY,Books,Python Book,877.19,877.19,1,Cancelled,33,Premium,user19@gmail.com,user19,2024-01-16 23:20:00
+U073,2024-06-21,T00020,S002,West,Seattle,WA,Electronics,Phone,900.65,900.65,1,Cancelled,37,Premium,user20@gmail.com,user20,2024-03-01 12:07:00
+U041,2024-03-07,T00021,S002,West,San Francisco,CA,Sports,Tennis Racket,2441.15,488.23,5,Pending,30,Premium,user21@gmail.com,user21,2024-02-22 21:45:00
+U028,2024-05-24,T00022,S005,North,Detroit,MI,Books,Python Book,698.26,698.26,1,Pending,22,Basic,user22@gmail.com,user22,2024-01-26 02:34:00
+U084,2024-05-19,T00023,S005,West,Los Angeles,CA,Books,SQL Guide,1337.02,668.51,2,Delivered,39,Basic,user23@gmail.com,user23,2024-06-29 09:39:00
+U027,2024-02-09,T00024,S003,West,Los Angeles,CA,Books,Python Book,1118.78,1118.78,1,Delivered,39,Basic,user24@gmail.com,user24,2024-03-10 09:38:00
+U017,2024-01-12,T00025,S003,South,Houston,TX,Electronics,Laptop,4989.76,1247.44,4,Delivered,41,Basic,user25@gmail.com,,2024-01-01 10:49:00
+U048,2024-06-25,T00026,S005,South,Miami,FL,Electronics,Laptop,1418.68,1418.68,1,Cancelled,22,Basic,user26@gmail.com,user26,2024-02-08 17:02:00
+U014,2024-02-23,T00027,S003,East,New York,NY,Books,SQL Guide,1350.41,1350.41,1,Cancelled,45,Basic,user27@gmail.com,user27,2024-06-23 07:42:00
+U095,2024-03-26,T00028,S002,East,New York,NY,Furniture,Table,226.72,56.68,4,Pending,23,Premium,user28@gmail.com,user28,2024-04-15 21:55:00
+U030,2024-04-27,T00029,S002,South,Dallas,TX,Clothing,Jacket,2457.1,1228.55,2,Delivered,39,Premium,user29@gmail.com,user29,2024-03-30 09:52:00
+U069,2024-05-10,T00030,S003,South,Houston,TX,Books,Python Book,1619.1,539.7,3,Delivered,21,Basic,user30@gmail.com,user30,2024-04-12 21:53:00
+U066,2024-03-29,T00031,S001,East,Philadelphia,PA,Books,Python Book,902.93,902.93,1,Pending,36,Premium,user31@gmail.com,user31,2024-03-21 13:38:00
+U095,2024-05-17,T00032,S002,North,Chicago,IL,Clothing,Jacket,6949.25,1389.85,5,Pending,31,Premium,user32@gmail.com,user32,2024-06-24 23:47:00
+U053,2024-03-17,T00033,S003,North,Minneapolis,MN,Books,Spark Handbook,1085.24,1085.24,1,Pending,40,Basic,user33@gmail.com,user33,2024-05-09 09:42:00
+U052,2024-02-14,T00034,S005,East,New York,NY,Clothing,Jeans,4089.72,1022.43,4,Delivered,27,Basic,user34@gmail.com,user34,2024-06-06 18:19:00
+U061,2024-04-23,T00035,S002,East,Boston,MA,Sports,Tennis Racket,2124.54,708.18,3,Cancelled,20,Basic,,user35,2024-06-21 06:32:00
+U061,2024-02-07,T00036,S005,North,Chicago,IL,Furniture,Desk,2427.42,1213.71,2,Delivered,32,Basic,user36@gmail.com,user36,2024-01-07 01:15:00
+U097,2024-06-16,T00037,S001,East,Philadelphia,PA,Clothing,T-Shirt,1524.4,381.1,4,Pending,25,Premium,user37@gmail.com,user37,2024-06-25 00:57:00
+U077,2024-04-28,T00038,S003,South,Dallas,TX,Sports,Football,695.56,695.56,1,Pending,37,Basic,user38@gmail.com,user38,2024-06-19 16:35:00
+U081,2024-06-12,T00039,S002,South,Dallas,TX,Clothing,T-Shirt,3397.89,1132.63,3,Pending,32,Premium,user39@gmail.com,user39,2024-03-11 16:31:00
+U050,2024-01-21,T00040,S002,North,Chicago,IL,Books,SQL Guide,4025.04,1341.68,3,Cancelled,24,Premium,user40@gmail.com,user40,2024-02-05 04:14:00
+U099,2024-02-22,T00041,S005,South,Houston,TX,Books,Spark Handbook,2541.4,635.35,4,Cancelled,18,Basic,user41@gmail.com,user41,2024-04-17 12:57:00
+U070,2024-04-17,T00042,S005,South,Dallas,TX,Books,SQL Guide,5132.4,1283.1,4,,33,Premium,user42@gmail.com,user42,2024-05-17 23:47:00
+U060,2024-06-22,T00043,S002,North,Detroit,MI,Clothing,Jacket,2069.88,517.47,4,Cancelled,35,Premium,user43@gmail.com,user43,2024-04-13 23:10:00
+U007,2024-04-19,T00044,S003,South,Miami,FL,Sports,Tennis Racket,144.24,144.24,1,Pending,28,Premium,user44@gmail.com,user44,2024-02-04 14:11:00
+U003,2024-04-17,T00045,S005,South,Houston,TX,Books,SQL Guide,3398.91,1132.97,3,Delivered,29,Premium,user45@gmail.com,user45,2024-03-05 02:30:00
+U017,2024-01-06,T00046,S004,West,Seattle,WA,Electronics,Laptop,630.1,315.05,2,,21,Premium,user46@gmail.com,user46,2024-06-08 04:15:00
+U075,2024-01-30,T00047,S001,South,Miami,FL,Books,SQL Guide,1833.44,916.72,2,Pending,36,Basic,user47@gmail.com,user47,2024-02-11 09:06:00
+U099,2024-06-09,T00048,S003,South,Miami,FL,Furniture,Chair,5210.55,1042.11,5,Cancelled,37,Premium,user48@gmail.com,user48,2024-03-03 03:44:00
+U054,2024-06-14,T00049,S004,West,San Francisco,CA,Sports,Cricket Bat,366.18,122.06,3,Delivered,31,Basic,user49@gmail.com,user49,2024-03-28 00:54:00
+U069,2024-06-15,T00050,S004,South,Miami,FL,Furniture,Sofa,2212.04,1106.02,2,Pending,31,Basic,user50@gmail.com,user50,2024-03-10 19:51:00
+U049,2024-04-28,T00051,S003,North,Chicago,IL,Electronics,Monitor,1523.68,380.92,4,Delivered,33,Basic,user51@gmail.com,user51,2024-05-25 19:42:00
+U002,2024-06-01,T00052,S005,East,Boston,MA,Furniture,Desk,1571.1,523.7,3,Delivered,20,Premium,user52@gmail.com,user52,2024-06-28 08:35:00
+U038,2024-05-05,T00053,S002,South,Houston,TX,Sports,Football,3903.76,975.94,4,Pending,40,Premium,user53@gmail.com,user53,2024-04-24 00:05:00
+U043,2024-03-29,T00054,S003,North,Minneapolis,MN,Sports,Cricket Bat,3356.56,839.14,4,Cancelled,32,Basic,user54@gmail.com,user54,2024-04-18 23:35:00
+U028,2024-05-17,T00055,S004,North,Detroit,MI,Furniture,Chair,974.02,487.01,2,Pending,41,Basic,user55@gmail.com,user55,2024-06-25 05:12:00
+U006,2024-01-04,T00056,S001,West,Los Angeles,CA,Books,Python Book,856.71,285.57,3,Cancelled,27,Premium,user56@gmail.com,user56,2024-05-16 04:17:00
+U033,2024-04-22,T00057,S004,South,Dallas,TX,Electronics,Mouse,2144.13,714.71,3,Delivered,44,Premium,user57@gmail.com,user57,2024-03-28 05:03:00
+U016,2024-05-24,T00058,S005,South,Houston,TX,Electronics,Mouse,244.56,244.56,1,Pending,37,Premium,user58@gmail.com,user58,2024-03-18 02:15:00
+U079,2024-03-19,T00059,S001,South,Houston,TX,Clothing,T-Shirt,7426.25,1485.25,5,Delivered,38,Premium,user59@gmail.com,user59,2024-05-25 19:03:00
+U058,2024-01-20,T00060,S005,North,Minneapolis,MN,Electronics,Phone,554.48,277.24,2,Pending,27,Premium,user60@gmail.com,user60,2024-02-10 00:26:00
+U085,2024-02-29,T00061,S002,East,Boston,MA,Books,Spark Handbook,501.4,125.35,4,Pending,21,Premium,user61@gmail.com,user61,2024-03-08 20:37:00
+U073,2024-03-19,T00062,S003,East,Boston,MA,Furniture,Chair,265.57,,1,Pending,21,Basic,user62@gmail.com,user62,2024-06-01 23:52:00
+U056,2024-04-22,T00063,S003,North,Minneapolis,MN,Clothing,T-Shirt,4095.85,819.17,5,Cancelled,26,Premium,user63@gmail.com,user63,2024-01-21 19:02:00
+U098,2024-06-21,T00064,S002,West,Los Angeles,CA,Sports,Tennis Racket,1499.37,1499.37,1,Pending,34,Basic,user64@gmail.com,user64,2024-03-09 18:02:00
+U042,2024-04-30,T00065,S001,North,Chicago,IL,Sports,Cricket Bat,5816.8,1454.2,4,Delivered,28,Basic,user65@gmail.com,user65,2024-03-30 13:21:00
+U099,2024-03-21,T00066,S004,South,Houston,TX,Clothing,Jeans,693.14,693.14,1,Cancelled,44,Premium,user66@gmail.com,user66,2024-03-05 10:07:00
+U007,2024-05-07,T00067,S002,South,Houston,TX,Electronics,Phone,2777.15,555.43,5,Pending,35,Premium,user67@gmail.com,user67,2024-06-09 14:48:00
+U040,2024-06-04,T00068,S005,North,Detroit,MI,Clothing,Jacket,1460.26,1460.26,1,Delivered,35,Basic,user68@gmail.com,user68,2024-03-02 22:10:00
+U066,2024-02-09,T00069,S003,West,Los Angeles,CA,Electronics,Keyboard,978.61,978.61,1,Pending,44,Basic,user69@gmail.com,user69,2024-05-07 22:18:00
+U018,2024-06-02,T00070,S001,South,Dallas,TX,Clothing,Jeans,1175.42,587.71,2,Pending,42,Basic,user70@gmail.com,user70,2024-05-10 23:56:00
+U020,2024-05-30,T00071,S004,North,Minneapolis,MN,Books,Python Book,3283.68,1094.56,3,Cancelled,33,Basic,user71@gmail.com,user71,2024-05-28 21:31:00
+U050,2024-02-18,T00072,S002,North,Minneapolis,MN,Sports,Cricket Bat,5602.48,1400.62,4,Pending,19,Basic,user72@gmail.com,user72,2024-06-27 07:36:00
+U043,2024-01-10,T00073,S001,South,Miami,FL,Clothing,T-Shirt,1506.18,753.09,2,Pending,21,Basic,user73@gmail.com,user73,2024-02-02 16:37:00
+U051,2024-03-08,T00074,S001,West,Seattle,WA,Furniture,Sofa,261.5,130.75,2,Pending,45,Basic,user74@gmail.com,user74,2024-03-27 19:44:00
+U037,2024-03-01,T00075,S002,North,Minneapolis,MN,Clothing,Jeans,933.84,933.84,1,Cancelled,20,Basic,user75@gmail.com,user75,2024-06-10 21:58:00
+U008,2024-01-08,T00076,S003,West,Seattle,WA,Electronics,Keyboard,2094.24,1047.12,2,Pending,29,Basic,user76@gmail.com,user76,2024-01-12 10:50:00
+U079,2024-02-16,T00077,S004,East,New York,NY,Sports,Cricket Bat,5145.3,1029.06,5,Cancelled,39,Premium,user77@gmail.com,user77,2024-02-13 05:05:00
+U060,2024-04-27,T00078,S003,South,Miami,FL,Furniture,Table,3856.4,964.1,4,Cancelled,35,Premium,user78@gmail.com,user78,2024-03-06 21:00:00
+U039,2024-04-18,T00079,S002,West,San Francisco,CA,Books,Spark Handbook,2896.89,965.63,3,Pending,45,Basic,user79@gmail.com,user79,2024-06-25 08:29:00
+U085,2024-06-28,T00080,S004,West,Los Angeles,CA,Clothing,Jeans,2612.16,870.72,3,Pending,18,Premium,user80@gmail.com,user80,2024-03-16 00:53:00
+U093,2024-06-07,T00081,S002,South,Houston,TX,Furniture,Desk,1924.38,962.19,2,Cancelled,21,Premium,user81@gmail.com,user81,2024-03-05 21:48:00
+U054,2024-01-24,T00082,S002,North,Detroit,MI,Electronics,Mouse,3311.67,1103.89,3,Delivered,22,Basic,user82@gmail.com,user82,2024-03-16 10:47:00
+U019,2024-03-27,T00083,S002,North,Chicago,IL,Books,SQL Guide,3374.73,1124.91,3,Cancelled,41,Basic,user83@gmail.com,user83,2024-01-30 14:04:00
+U087,2024-04-26,T00084,S003,North,Chicago,IL,Clothing,Jacket,2442.39,814.13,3,Cancelled,30,Basic,user84@gmail.com,user84,2024-04-04 21:47:00
+U083,2024-05-23,T00085,S001,West,Seattle,WA,Furniture,Sofa,936.93,936.93,1,Cancelled,44,Basic,user85@gmail.com,user85,2024-03-24 19:14:00
+U013,2024-01-10,T00086,S002,North,Minneapolis,MN,Clothing,Jacket,174.22,87.11,2,Cancelled,22,Basic,,user86,2024-03-18 15:07:00
+U063,2024-02-09,T00087,S005,South,Houston,TX,Sports,Cricket Bat,5592.8,1118.56,5,Pending,26,Premium,user87@gmail.com,user87,2024-04-16 20:06:00
+U083,2024-01-26,T00088,S003,North,Chicago,IL,Clothing,T-Shirt,2572.14,1286.07,2,Delivered,30,Basic,user88@gmail.com,user88,2024-06-24 11:34:00
+U043,2024-06-01,T00089,S002,East,New York,NY,Clothing,Jacket,1939.44,,2,Delivered,43,Premium,user89@gmail.com,user89,2024-01-06 01:50:00
+U019,2024-02-07,T00090,S002,West,Seattle,WA,Furniture,Table,1012.54,506.27,2,Cancelled,26,Premium,user90@gmail.com,user90,2024-06-01 00:17:00
+U023,2024-03-01,T00091,S003,West,Seattle,WA,Electronics,Phone,550.2,550.2,1,Delivered,22,Basic,user91@gmail.com,user91,2024-05-30 10:01:00
+U065,2024-05-11,T00092,S002,West,Seattle,WA,Electronics,Keyboard,4685.88,1171.47,4,Cancelled,19,Basic,user92@gmail.com,user92,2024-05-31 03:28:00
+U092,2024-04-19,T00093,S004,South,Miami,FL,Electronics,Laptop,5096.0,1274.0,4,Delivered,20,Basic,user93@gmail.com,,2024-06-24 03:31:00
+U068,2024-05-20,T00094,S003,East,New York,NY,Furniture,Desk,4784.75,956.95,5,Pending,34,Basic,user94@gmail.com,user94,2024-03-24 12:38:00
+U059,2024-02-28,T00095,S004,West,Seattle,WA,Electronics,Mouse,1313.0,656.5,2,Pending,41,Premium,user95@gmail.com,user95,2024-04-15 10:52:00
+U012,2024-02-09,T00096,S001,North,Detroit,MI,Books,Spark Handbook,1721.91,573.97,3,Delivered,31,Premium,user96@gmail.com,user96,2024-06-24 15:04:00
+U053,2024-05-23,T00097,S003,North,Chicago,IL,Sports,Football,7179.0,1435.8,5,Cancelled,42,Basic,user97@gmail.com,user97,2024-03-25 21:07:00
+U062,2024-05-09,T00098,S002,West,San Francisco,CA,Sports,Cricket Bat,519.99,173.33,3,Delivered,29,Basic,user98@gmail.com,user98,2024-02-24 04:42:00
+U072,2024-06-08,T00099,S001,West,San Francisco,CA,Sports,Football,5083.32,1270.83,4,Cancelled,39,Basic,user99@gmail.com,user99,2024-06-06 21:41:00
+U019,2024-03-30,T00100,S005,West,Los Angeles,CA,Books,Spark Handbook,4151.64,1383.88,3,Cancelled,30,Premium,user100@gmail.com,user100,2024-01-02 05:55:00
+U048,2024-04-17,T00101,S003,East,Philadelphia,PA,Electronics,Laptop,1692.0,338.4,5,Cancelled,28,Premium,,user101,2024-04-26 10:10:00
+U057,2024-06-18,T00102,S004,West,Los Angeles,CA,Furniture,Chair,422.71,422.71,1,Pending,24,Premium,user102@gmail.com,user102,2024-04-18 15:38:00
+U051,2024-06-19,T00103,S005,North,Detroit,MI,Electronics,Monitor,3701.1,740.22,5,Delivered,18,Premium,user103@gmail.com,user103,2024-03-19 01:14:00
+U023,2024-01-02,T00104,S002,North,Chicago,IL,Furniture,Desk,1516.86,505.62,3,Pending,35,Premium,user104@gmail.com,user104,2024-05-07 23:27:00
+U055,2024-04-27,T00105,S005,North,Chicago,IL,Clothing,Jeans,665.61,665.61,1,Pending,40,Basic,user105@gmail.com,user105,2024-01-20 10:36:00
+U047,2024-06-07,T00106,S001,North,Chicago,IL,Clothing,Jacket,823.11,274.37,3,Pending,45,Premium,user106@gmail.com,user106,2024-04-27 22:58:00
+U100,2024-03-20,T00107,S002,East,Boston,MA,Sports,Cricket Bat,682.0,136.4,5,Delivered,34,Premium,user107@gmail.com,user107,2024-03-27 07:21:00
+U078,2024-02-07,T00108,S002,East,Boston,MA,Books,Spark Handbook,739.36,369.68,2,Cancelled,20,Premium,user108@gmail.com,user108,2024-03-06 06:11:00
+U042,2024-05-24,T00109,S003,South,Houston,TX,Sports,Tennis Racket,4112.32,1028.08,4,Delivered,32,Premium,user109@gmail.com,user109,2024-06-13 20:39:00
+U058,2024-05-09,T00110,S001,South,Houston,TX,Books,SQL Guide,515.65,103.13,5,Delivered,29,Basic,user110@gmail.com,user110,2024-01-19 09:29:00
+U095,2024-04-28,T00111,S001,West,Seattle,WA,Electronics,Mouse,3852.3,770.46,5,Pending,43,Premium,user111@gmail.com,user111,2024-05-28 17:50:00
+U011,2024-04-25,T00112,S005,North,Minneapolis,MN,Clothing,Jeans,2874.86,1437.43,2,Cancelled,23,Premium,user112@gmail.com,user112,2024-01-27 10:45:00
+U037,2024-02-10,T00113,S004,East,Philadelphia,PA,Clothing,T-Shirt,3968.35,793.67,5,Pending,42,Basic,user113@gmail.com,user113,2024-04-03 11:58:00
+U093,2024-06-22,T00114,S005,West,Seattle,WA,Books,Python Book,479.61,,3,Delivered,28,Premium,user114@gmail.com,user114,2024-04-08 09:16:00
+U083,2024-01-22,T00115,S003,East,Boston,MA,Books,Spark Handbook,843.4,210.85,4,Delivered,39,Premium,user115@gmail.com,user115,2024-03-20 17:24:00
+U029,2024-02-24,T00116,S002,South,Miami,FL,Books,Python Book,1431.36,477.12,3,Delivered,20,Basic,user116@gmail.com,user116,2024-03-28 15:12:00
+U049,2024-03-27,T00117,S002,West,Seattle,WA,Sports,Tennis Racket,379.35,75.87,5,Delivered,23,Premium,user117@gmail.com,user117,2024-06-07 04:38:00
+U058,2024-06-05,T00118,S002,South,Dallas,TX,Clothing,T-Shirt,2909.98,1454.99,2,Cancelled,25,Basic,user118@gmail.com,user118,2024-03-13 23:50:00
+U068,2024-04-28,T00119,S004,South,Dallas,TX,Books,Spark Handbook,7384.85,1476.97,5,Delivered,44,Premium,user119@gmail.com,user119,2024-03-13 12:32:00
+U011,2024-01-27,T00120,S002,East,Boston,MA,Electronics,Keyboard,2522.16,840.72,3,Pending,32,Premium,user120@gmail.com,user120,2024-05-12 03:18:00
+U048,2024-04-16,T00121,S002,South,Dallas,TX,Furniture,Sofa,4191.3,1397.1,3,Pending,20,Basic,user121@gmail.com,user121,2024-01-14 12:32:00
+U061,2024-02-05,T00122,S002,East,New York,NY,Books,Python Book,3573.72,1191.24,3,Cancelled,33,Basic,user122@gmail.com,user122,2024-01-10 09:58:00
+U015,2024-05-20,T00123,S003,West,Los Angeles,CA,Electronics,Monitor,2511.5,1255.75,2,Delivered,27,Premium,user123@gmail.com,user123,2024-06-04 16:27:00
+U003,2024-01-29,T00124,S005,West,Los Angeles,CA,Clothing,Jeans,3482.65,696.53,5,Cancelled,25,Premium,user124@gmail.com,user124,2024-05-07 19:34:00
+U011,2024-04-16,T00125,S005,North,Detroit,MI,Electronics,Mouse,1128.12,376.04,3,Pending,20,Premium,user125@gmail.com,user125,2024-02-17 21:42:00
+U031,2024-01-05,T00126,S001,South,Houston,TX,Electronics,Keyboard,1186.2,395.4,3,Cancelled,41,Basic,user126@gmail.com,user126,2024-04-01 02:22:00
+U062,2024-02-14,T00127,S002,East,New York,NY,Books,Spark Handbook,3671.97,1223.99,3,Delivered,20,Basic,user127@gmail.com,user127,2024-06-24 14:44:00
+U070,2024-03-21,T00128,S004,West,San Francisco,CA,Furniture,Chair,2661.94,1330.97,2,Pending,19,Premium,user128@gmail.com,user128,2024-03-20 16:25:00
+U057,2024-04-04,T00129,S004,North,Detroit,MI,Electronics,Monitor,612.66,204.22,3,Pending,23,Basic,user129@gmail.com,user129,2024-04-21 12:47:00
+U024,2024-01-21,T00130,S005,South,Houston,TX,Sports,Cricket Bat,1096.08,1096.08,1,Pending,28,Premium,user130@gmail.com,user130,2024-04-20 19:52:00
+U045,2024-04-19,T00131,S004,West,San Francisco,CA,Books,SQL Guide,3647.52,911.88,4,Delivered,41,Basic,user131@gmail.com,user131,2024-02-12 22:28:00
+U078,2024-06-22,T00132,S004,South,Houston,TX,Electronics,Laptop,2230.8,557.7,4,Delivered,22,Premium,user132@gmail.com,user132,2024-02-10 00:09:00
+U058,2024-01-09,T00133,S003,East,Philadelphia,PA,Books,SQL Guide,5700.84,1425.21,4,Pending,32,Premium,user133@gmail.com,user133,2024-06-03 04:43:00
+U024,2024-03-04,T00134,S004,East,Philadelphia,PA,Books,SQL Guide,2944.05,981.35,3,Cancelled,30,Premium,user134@gmail.com,user134,2024-01-30 00:47:00
+U010,2024-05-05,T00135,S004,North,Detroit,MI,Clothing,Jacket,2213.25,442.65,5,Delivered,40,Basic,user135@gmail.com,user135,2024-02-21 03:08:00
+U039,2024-05-20,T00136,S002,West,Seattle,WA,Books,Spark Handbook,3210.36,1070.12,3,Cancelled,40,Premium,,user136,2024-05-18 09:57:00
+U071,2024-03-01,T00137,S005,North,Minneapolis,MN,Furniture,Chair,2384.52,1192.26,2,Pending,32,Premium,user137@gmail.com,user137,2024-05-06 00:23:00
+U041,2024-04-14,T00138,S001,West,Los Angeles,CA,Books,SQL Guide,3192.12,798.03,4,Pending,32,Basic,user138@gmail.com,user138,2024-05-27 02:08:00
+U039,2024-01-15,T00139,S002,East,Philadelphia,PA,Sports,Football,1320.56,660.28,2,Delivered,28,Premium,user139@gmail.com,user139,2024-02-01 16:09:00
+U039,2024-05-21,T00140,S005,North,Minneapolis,MN,Books,Python Book,931.59,,3,Cancelled,20,Premium,user140@gmail.com,user140,2024-03-11 04:40:00
+U006,2024-05-24,T00141,S005,East,New York,NY,Sports,Tennis Racket,2598.4,519.68,5,Pending,38,Premium,user141@gmail.com,user141,2024-01-11 00:05:00
+U088,2024-03-18,T00142,S004,South,Miami,FL,Electronics,Keyboard,2243.55,448.71,5,Pending,32,Premium,user142@gmail.com,user142,2024-05-03 07:51:00
+U092,2024-03-28,T00143,S003,West,Los Angeles,CA,Clothing,T-Shirt,2829.48,707.37,4,Cancelled,45,Basic,user143@gmail.com,user143,2024-06-04 04:20:00
+U058,2024-03-02,T00144,S002,South,Dallas,TX,Books,Spark Handbook,885.75,177.15,5,Delivered,21,Premium,user144@gmail.com,user144,2024-04-29 03:17:00
+U041,2024-02-10,T00145,S002,North,Detroit,MI,Sports,Cricket Bat,2889.56,1444.78,2,Delivered,33,Basic,user145@gmail.com,user145,2024-03-24 18:46:00
+U075,2024-05-09,T00146,S003,South,Houston,TX,Clothing,Jacket,1418.94,1418.94,1,Delivered,19,Basic,user146@gmail.com,user146,2024-04-27 07:13:00
+U034,2024-01-28,T00147,S003,South,Miami,FL,Clothing,T-Shirt,160.5,32.1,5,Pending,29,Premium,user147@gmail.com,user147,2024-04-20 04:56:00
+U058,2024-03-14,T00148,S005,South,Dallas,TX,Sports,Tennis Racket,1113.08,556.54,2,Pending,44,Premium,user148@gmail.com,user148,2024-01-19 12:32:00
+U066,2024-04-03,T00149,S004,East,New York,NY,Clothing,T-Shirt,2536.77,845.59,3,Cancelled,19,Premium,user149@gmail.com,user149,2024-02-06 06:38:00
+U079,2024-06-04,T00150,S003,West,Los Angeles,CA,Books,SQL Guide,3481.7,696.34,5,Delivered,30,Basic,user150@gmail.com,user150,2024-05-11 04:20:00
+U043,2024-03-17,T00151,S001,North,Minneapolis,MN,Sports,Tennis Racket,4275.72,1068.93,4,Pending,36,Basic,user151@gmail.com,user151,2024-05-01 00:23:00
+U068,2024-01-14,T00152,S005,West,Seattle,WA,Clothing,T-Shirt,4374.5,874.9,5,Pending,22,Premium,user152@gmail.com,user152,2024-05-29 15:10:00
+U027,2024-04-17,T00153,S004,West,Seattle,WA,Electronics,Phone,672.74,672.74,1,,42,Basic,user153@gmail.com,user153,2024-02-08 13:44:00
+U041,2024-06-18,T00154,S002,West,Seattle,WA,Furniture,Table,2505.35,501.07,5,Pending,35,Basic,user154@gmail.com,user154,2024-05-02 16:24:00
+U029,2024-03-04,T00155,S003,North,Minneapolis,MN,Books,Spark Handbook,1218.2,304.55,4,Pending,40,Premium,user155@gmail.com,user155,2024-03-12 17:19:00
+U087,2024-03-11,T00156,S005,South,Houston,TX,Clothing,T-Shirt,7009.4,1401.88,5,Pending,30,Basic,user156@gmail.com,user156,2024-03-14 03:36:00
+U062,2024-04-23,T00157,S002,East,Boston,MA,Electronics,Monitor,532.62,532.62,1,Delivered,44,Basic,user157@gmail.com,user157,2024-06-16 08:47:00
+U082,2024-01-13,T00158,S002,North,Chicago,IL,Electronics,Mouse,1870.7,374.14,5,Delivered,21,Basic,user158@gmail.com,user158,2024-06-20 16:14:00
+U061,2024-05-20,T00159,S004,North,Minneapolis,MN,Clothing,Jacket,55.34,27.67,2,Cancelled,24,Basic,user159@gmail.com,user159,2024-02-10 13:41:00
+U023,2024-01-10,T00160,S001,North,Detroit,MI,Electronics,Laptop,1818.45,363.69,5,Pending,43,Basic,user160@gmail.com,user160,2024-02-14 13:56:00
+U059,2024-06-03,T00161,S005,East,Philadelphia,PA,Books,Python Book,461.62,,1,Cancelled,33,Premium,user161@gmail.com,user161,2024-01-28 10:18:00
+U024,2024-04-27,T00162,S001,South,Houston,TX,Furniture,Chair,781.47,260.49,3,Cancelled,28,Basic,user162@gmail.com,user162,2024-06-14 08:45:00
+U086,2024-05-11,T00163,S001,East,New York,NY,Sports,Tennis Racket,4975.76,1243.94,4,Delivered,22,Basic,user163@gmail.com,user163,2024-03-24 02:25:00
+U093,2024-03-09,T00164,S005,North,Chicago,IL,Electronics,Monitor,1474.28,368.57,4,Delivered,26,Basic,user164@gmail.com,user164,2024-03-25 09:37:00
+U040,2024-06-24,T00165,S001,East,New York,NY,Electronics,Keyboard,769.14,256.38,3,Cancelled,27,Basic,user165@gmail.com,user165,2024-05-08 22:49:00
+U071,2024-06-04,T00166,S004,East,New York,NY,Furniture,Sofa,1386.74,693.37,2,Cancelled,43,Premium,user166@gmail.com,,2024-04-05 13:44:00
+U073,2024-06-29,T00167,S001,East,Philadelphia,PA,Sports,Football,3405.95,681.19,5,Delivered,44,Premium,user167@gmail.com,user167,2024-04-02 02:58:00
+U066,2024-02-22,T00168,S004,East,New York,NY,Books,Spark Handbook,768.16,192.04,4,Delivered,32,Premium,user168@gmail.com,user168,2024-05-29 15:05:00
+U001,2024-03-19,T00169,S002,South,Houston,TX,Sports,Football,3521.6,704.32,5,Cancelled,20,Premium,user169@gmail.com,user169,2024-01-06 12:16:00
+U053,2024-01-18,T00170,S002,South,Houston,TX,Electronics,Mouse,1403.18,1403.18,1,Delivered,42,Basic,user170@gmail.com,user170,2024-04-30 01:18:00
+U045,2024-06-18,T00171,S001,North,Detroit,MI,Clothing,T-Shirt,555.08,138.77,4,Delivered,35,Basic,user171@gmail.com,user171,2024-05-18 04:41:00
+U055,2024-04-28,T00172,S005,East,Philadelphia,PA,Furniture,Chair,1468.17,1468.17,1,Pending,44,Premium,user172@gmail.com,user172,2024-06-21 23:34:00
+U079,2024-01-29,T00173,S001,East,Boston,MA,Books,Python Book,896.85,298.95,3,Delivered,24,Premium,user173@gmail.com,user173,2024-01-09 21:26:00
+U052,2024-01-13,T00174,S004,West,Seattle,WA,Electronics,Keyboard,5072.95,1014.59,5,Delivered,35,Premium,user174@gmail.com,user174,2024-03-03 23:02:00
+U099,2024-05-27,T00175,S003,West,Los Angeles,CA,Sports,Cricket Bat,2454.72,,2,Delivered,27,Premium,user175@gmail.com,user175,2024-03-22 18:38:00
+U055,2024-05-31,T00176,S005,East,Boston,MA,Books,SQL Guide,843.94,,1,Pending,19,Basic,user176@gmail.com,user176,2024-02-14 20:43:00
+U069,2024-03-17,T00177,S004,South,Miami,FL,Books,Spark Handbook,2496.88,624.22,4,Delivered,45,Premium,user177@gmail.com,user177,2024-04-06 05:48:00
+U050,2024-04-16,T00178,S002,North,Minneapolis,MN,Furniture,Sofa,852.33,852.33,1,Pending,24,Basic,user178@gmail.com,user178,2024-05-22 16:08:00
+U087,2024-02-18,T00179,S005,West,San Francisco,CA,Books,Python Book,5461.95,1092.39,5,Cancelled,19,Premium,user179@gmail.com,user179,2024-01-14 08:24:00
+U025,2024-03-26,T00180,S001,East,Philadelphia,PA,Sports,Football,1316.64,329.16,4,Cancelled,42,Basic,user180@gmail.com,user180,2024-03-18 00:13:00
+U037,2024-03-02,T00181,S004,East,Philadelphia,PA,Sports,Tennis Racket,1214.04,607.02,2,Pending,35,Basic,user181@gmail.com,user181,2024-05-21 10:49:00
+U041,2024-04-30,T00182,S004,North,Detroit,MI,Books,Spark Handbook,2838.76,709.69,4,Delivered,36,Premium,user182@gmail.com,user182,2024-03-22 06:23:00
+U043,2024-04-16,T00183,S002,East,New York,NY,Books,Spark Handbook,4385.65,877.13,5,Pending,36,Premium,user183@gmail.com,user183,2024-03-16 04:12:00
+U094,2024-06-13,T00184,S003,South,Miami,FL,Books,SQL Guide,5801.72,1450.43,4,Delivered,22,Basic,user184@gmail.com,user184,2024-05-05 14:10:00
+U001,2024-01-20,T00185,S004,East,Philadelphia,PA,Electronics,Mouse,1261.82,1261.82,1,Delivered,44,Premium,user185@gmail.com,user185,2024-06-20 01:48:00
+U086,2024-04-05,T00186,S005,West,Seattle,WA,Furniture,Chair,1536.96,768.48,2,Pending,39,Basic,user186@gmail.com,user186,2024-01-16 19:40:00
+U003,2024-05-15,T00187,S005,West,Los Angeles,CA,Sports,Tennis Racket,150.16,37.54,4,Cancelled,39,Basic,user187@gmail.com,user187,2024-03-11 17:18:00
+U046,2024-06-07,T00188,S003,East,New York,NY,Electronics,Mouse,753.26,376.63,2,Pending,20,Basic,user188@gmail.com,user188,2024-05-14 08:52:00
+U005,2024-01-21,T00189,S001,South,Houston,TX,Sports,Football,927.92,463.96,2,Pending,30,Basic,user189@gmail.com,user189,2024-06-16 20:48:00
+U013,2024-04-21,T00190,S005,South,Dallas,TX,Electronics,Phone,759.79,759.79,1,Delivered,25,Premium,user190@gmail.com,user190,2024-06-14 10:36:00
+U041,2024-05-24,T00191,S001,South,Houston,TX,Electronics,Laptop,4052.94,1350.98,3,Delivered,36,Premium,user191@gmail.com,user191,2024-06-17 01:11:00
+U050,2024-04-09,T00192,S002,South,Dallas,TX,Books,Python Book,1879.5,375.9,5,Cancelled,41,Premium,user192@gmail.com,user192,2024-06-22 17:21:00
+U051,2024-03-28,T00193,S003,North,Chicago,IL,Electronics,Keyboard,2522.48,1261.24,2,Delivered,38,Basic,user193@gmail.com,user193,2024-06-03 19:38:00
+U085,2024-04-20,T00194,S004,South,Houston,TX,Furniture,Desk,7064.45,1412.89,5,Delivered,42,Basic,user194@gmail.com,user194,2024-02-17 21:37:00
+U041,2024-06-11,T00195,S003,East,Philadelphia,PA,Electronics,Laptop,744.75,248.25,3,Delivered,20,Premium,user195@gmail.com,user195,2024-02-09 23:24:00
+U072,2024-02-17,T00196,S005,North,Detroit,MI,Books,SQL Guide,216.11,216.11,1,Pending,21,Premium,user196@gmail.com,user196,2024-04-20 14:35:00
+U053,2024-03-24,T00197,S004,West,San Francisco,CA,Sports,Football,4525.5,905.1,5,Delivered,41,Premium,user197@gmail.com,user197,2024-04-08 00:18:00
+U022,2024-03-09,T00198,S004,East,Philadelphia,PA,Clothing,Jacket,836.0,418.0,2,Pending,31,Basic,user198@gmail.com,user198,2024-05-06 04:04:00
+U059,2024-05-06,T00199,S001,South,Dallas,TX,Books,SQL Guide,2173.86,1086.93,2,Delivered,27,Premium,user199@gmail.com,user199,2024-06-01 19:12:00
+U039,2024-04-20,T00200,S003,South,Houston,TX,Sports,Cricket Bat,2014.59,671.53,3,Cancelled,40,Premium,user200@gmail.com,user200,2024-06-15 19:08:00
+U032,2024-06-26,T00201,S003,South,Houston,TX,Furniture,Sofa,1354.02,451.34,3,Pending,26,Basic,user201@gmail.com,user201,2024-06-11 15:36:00
+U094,2024-02-16,T00202,S004,North,Chicago,IL,Sports,Football,7479.75,1495.95,5,Cancelled,24,Basic,user202@gmail.com,user202,2024-06-23 17:01:00
+U020,2024-03-18,T00203,S004,North,Minneapolis,MN,Electronics,Keyboard,903.96,225.99,4,Pending,20,Basic,user203@gmail.com,user203,2024-03-02 08:42:00
+U047,2024-06-26,T00204,S005,South,Miami,FL,Clothing,Jeans,6933.85,1386.77,5,Cancelled,38,Premium,user204@gmail.com,user204,2024-04-17 17:02:00
+U097,2024-06-14,T00205,S003,West,Los Angeles,CA,Books,Python Book,427.8,85.56,5,Pending,21,Premium,user205@gmail.com,user205,2024-06-22 20:25:00
+U065,2024-04-28,T00206,S002,West,San Francisco,CA,Furniture,Table,2294.8,573.7,4,Pending,18,Basic,user206@gmail.com,user206,2024-06-22 18:44:00
+U059,2024-02-06,T00207,S002,West,San Francisco,CA,Clothing,Jacket,1250.35,1250.35,1,Cancelled,33,Basic,user207@gmail.com,user207,2024-03-30 09:21:00
+U003,2024-03-17,T00208,S003,South,Dallas,TX,Clothing,Jeans,1967.96,491.99,4,Cancelled,21,Premium,user208@gmail.com,user208,2024-01-12 22:07:00
+U024,2024-04-28,T00209,S002,East,Philadelphia,PA,Furniture,Table,2545.74,848.58,3,Cancelled,39,Basic,user209@gmail.com,user209,2024-02-29 12:40:00
+U027,2024-04-09,T00210,S003,South,Dallas,TX,Sports,Football,3585.84,896.46,4,Cancelled,43,Premium,user210@gmail.com,user210,2024-01-02 22:13:00
+U063,2024-01-30,T00211,S005,West,Seattle,WA,Furniture,Desk,935.01,311.67,3,Cancelled,28,Basic,user211@gmail.com,user211,2024-03-08 21:55:00
+U039,2024-06-07,T00212,S005,South,Miami,FL,Electronics,Monitor,3814.11,1271.37,3,Cancelled,20,Premium,user212@gmail.com,user212,2024-02-14 21:45:00
+U054,2024-06-26,T00213,S005,North,Chicago,IL,Furniture,Desk,290.91,290.91,1,Delivered,36,Basic,user213@gmail.com,user213,2024-02-06 16:24:00
+U063,2024-06-14,T00214,S003,South,Dallas,TX,Clothing,Jeans,5231.4,1046.28,5,Delivered,23,Basic,user214@gmail.com,user214,2024-02-14 17:10:00
+U084,2024-02-19,T00215,S004,South,Miami,FL,Electronics,Monitor,737.22,737.22,1,Pending,39,Basic,user215@gmail.com,user215,2024-04-08 17:32:00
+U036,2024-01-08,T00216,S002,South,Miami,FL,Clothing,T-Shirt,284.7,142.35,2,Cancelled,27,Premium,user216@gmail.com,user216,2024-02-26 09:02:00
+U047,2024-01-30,T00217,S005,South,Miami,FL,Clothing,Jeans,937.75,187.55,5,Delivered,42,Basic,user217@gmail.com,user217,2024-03-09 17:52:00
+U012,2024-01-09,T00218,S004,East,Boston,MA,Electronics,Phone,3944.16,1314.72,3,Delivered,42,Premium,user218@gmail.com,user218,2024-04-25 08:22:00
+U079,2024-06-05,T00219,S002,East,Philadelphia,PA,Sports,Tennis Racket,3883.05,1294.35,3,Delivered,44,Premium,user219@gmail.com,user219,2024-06-10 13:10:00
+U038,2024-02-13,T00220,S005,West,Seattle,WA,Books,Spark Handbook,2710.05,903.35,3,Pending,45,Premium,user220@gmail.com,user220,2024-03-23 22:18:00
+U042,2024-02-03,T00221,S002,East,Boston,MA,Electronics,Monitor,2116.22,1058.11,2,Cancelled,30,Basic,user221@gmail.com,user221,2024-03-04 04:45:00
+U066,2024-01-20,T00222,S003,East,Philadelphia,PA,Books,Spark Handbook,2301.04,,4,Cancelled,29,Basic,user222@gmail.com,user222,2024-06-11 02:25:00
+U046,2024-04-27,T00223,S001,South,Houston,TX,Sports,Football,1101.78,1101.78,1,Cancelled,30,Premium,user223@gmail.com,user223,2024-06-11 21:44:00
+U073,2024-03-27,T00224,S004,South,Dallas,TX,Clothing,T-Shirt,3737.85,1245.95,3,Pending,39,Premium,,user224,2024-05-20 18:08:00
+U055,2024-02-10,T00225,S002,West,Los Angeles,CA,Clothing,Jacket,1395.56,1395.56,1,Cancelled,22,Basic,user225@gmail.com,user225,2024-04-22 14:00:00
+U051,2024-06-19,T00226,S003,East,Boston,MA,Electronics,Monitor,425.94,,3,Cancelled,40,Premium,user226@gmail.com,user226,2024-06-15 05:03:00
+U067,2024-01-20,T00227,S004,South,Miami,FL,Electronics,Laptop,335.86,335.86,1,Delivered,18,Basic,user227@gmail.com,user227,2024-02-03 18:14:00
+U048,2024-01-23,T00228,S003,West,San Francisco,CA,Furniture,Sofa,358.84,358.84,1,,30,Premium,user228@gmail.com,user228,2024-01-27 03:20:00
+U028,2024-02-12,T00229,S002,East,New York,NY,Sports,Tennis Racket,923.27,923.27,1,Pending,37,Basic,user229@gmail.com,user229,2024-04-22 11:46:00
+U018,2024-04-08,T00230,S002,East,New York,NY,Electronics,Phone,892.57,892.57,1,Pending,38,Premium,user230@gmail.com,user230,2024-03-30 13:20:00
+U039,2024-06-25,T00231,S002,East,Philadelphia,PA,Sports,Tennis Racket,2208.4,441.68,5,Cancelled,37,Premium,user231@gmail.com,user231,2024-01-07 21:56:00
+U010,2024-03-02,T00232,S005,South,Houston,TX,Electronics,Phone,2364.44,591.11,4,Delivered,29,Basic,user232@gmail.com,user232,2024-05-07 20:38:00
+U076,2024-02-14,T00233,S001,East,Boston,MA,Sports,Cricket Bat,2485.83,828.61,3,Delivered,26,Premium,user233@gmail.com,user233,2024-04-30 02:01:00
+U052,2024-05-08,T00234,S001,West,Los Angeles,CA,Clothing,Jeans,2850.84,950.28,3,Cancelled,35,Premium,user234@gmail.com,user234,2024-04-16 13:44:00
+U076,2024-02-09,T00235,S001,North,Chicago,IL,Books,Python Book,6914.85,1382.97,5,Pending,40,Basic,user235@gmail.com,user235,2024-05-17 10:25:00
+U086,2024-06-05,T00236,S002,East,New York,NY,Furniture,Chair,766.64,,4,Delivered,18,Premium,user236@gmail.com,user236,2024-06-04 01:19:00
+U096,2024-03-07,T00237,S003,West,Los Angeles,CA,Clothing,T-Shirt,3927.45,785.49,5,Cancelled,21,Premium,user237@gmail.com,user237,2024-02-12 11:08:00
+U059,2024-05-27,T00238,S005,North,Detroit,MI,Books,Spark Handbook,409.17,409.17,1,Pending,19,Basic,user238@gmail.com,user238,2024-06-09 02:31:00
+U066,2024-06-21,T00239,S001,East,Boston,MA,Furniture,Desk,1343.52,1343.52,1,Delivered,45,Premium,user239@gmail.com,user239,2024-01-30 07:47:00
+U092,2024-02-15,T00240,S004,East,New York,NY,Clothing,T-Shirt,5527.76,1381.94,4,Delivered,28,Premium,user240@gmail.com,user240,2024-01-10 17:51:00
+U007,2024-01-31,T00241,S002,South,Miami,FL,Books,SQL Guide,865.87,865.87,1,Delivered,43,Premium,user241@gmail.com,user241,2024-05-08 21:57:00
+U026,2024-05-21,T00242,S003,South,Dallas,TX,Clothing,T-Shirt,1513.23,504.41,3,Cancelled,43,Basic,user242@gmail.com,user242,2024-04-26 00:23:00
+U001,2024-02-20,T00243,S004,East,Boston,MA,Books,Spark Handbook,5986.88,1496.72,4,Delivered,25,Basic,user243@gmail.com,user243,2024-05-19 07:09:00
+U008,2024-05-15,T00244,S002,West,San Francisco,CA,Electronics,Keyboard,521.52,173.84,3,Cancelled,26,Premium,user244@gmail.com,user244,2024-03-01 13:31:00
+U018,2024-01-22,T00245,S004,West,Los Angeles,CA,Sports,Cricket Bat,2095.56,698.52,3,Delivered,36,Premium,user245@gmail.com,,2024-05-28 03:32:00
+U095,2024-03-21,T00246,S003,South,Miami,FL,Furniture,Table,1218.81,406.27,3,Pending,32,Basic,user246@gmail.com,user246,2024-04-10 22:53:00
+U041,2024-01-28,T00247,S004,East,New York,NY,Furniture,Table,906.4,181.28,5,Delivered,35,Basic,,user247,2024-02-12 14:29:00
+U091,2024-01-24,T00248,S005,East,Boston,MA,Books,SQL Guide,3845.01,1281.67,3,Delivered,24,Basic,user248@gmail.com,user248,2024-02-10 21:19:00
+U023,2024-06-22,T00249,S001,East,New York,NY,Furniture,Desk,3119.68,779.92,4,Pending,45,Basic,user249@gmail.com,user249,2024-03-17 08:52:00
+U052,2024-01-16,T00250,S003,East,New York,NY,Clothing,Jacket,399.5,199.75,2,Cancelled,38,Premium,user250@gmail.com,user250,2024-02-26 04:12:00
+U043,2024-04-23,T00251,S001,North,Chicago,IL,Electronics,Laptop,2711.38,1355.69,2,Delivered,32,Premium,user251@gmail.com,user251,2024-02-02 02:57:00
+U046,2024-04-07,T00252,S002,East,Philadelphia,PA,Clothing,Jeans,3017.08,754.27,4,Delivered,26,Basic,user252@gmail.com,user252,2024-06-23 13:11:00
+U071,2024-06-14,T00253,S004,South,Dallas,TX,Electronics,Mouse,4665.65,933.13,5,,20,Basic,user253@gmail.com,user253,2024-03-16 15:26:00
+U092,2024-05-19,T00254,S003,South,Dallas,TX,Clothing,Jacket,1943.7,388.74,5,,35,Basic,user254@gmail.com,user254,2024-01-05 12:50:00
+U004,2024-01-07,T00255,S003,North,Minneapolis,MN,Sports,Cricket Bat,1680.96,420.24,4,Delivered,43,Basic,user255@gmail.com,user255,2024-03-22 19:14:00
+U095,2024-03-02,T00256,S001,North,Minneapolis,MN,Furniture,Table,386.83,386.83,1,Delivered,36,Basic,user256@gmail.com,user256,2024-03-09 17:52:00
+U091,2024-06-27,T00257,S003,North,Chicago,IL,Furniture,Table,2453.25,490.65,5,Cancelled,36,Premium,user257@gmail.com,user257,2024-04-01 18:01:00
+U029,2024-01-24,T00258,S001,East,Boston,MA,Sports,Cricket Bat,1491.7,745.85,2,Cancelled,33,Premium,user258@gmail.com,user258,2024-01-15 07:38:00
+U076,2024-03-23,T00259,S002,North,Minneapolis,MN,Furniture,Table,3243.21,1081.07,3,Delivered,45,Basic,user259@gmail.com,user259,2024-01-16 00:09:00
+U056,2024-03-23,T00260,S004,West,San Francisco,CA,Clothing,Jeans,518.11,518.11,1,Cancelled,28,Premium,user260@gmail.com,user260,2024-02-04 05:46:00
+U094,2024-06-25,T00261,S001,North,Chicago,IL,Sports,Football,1896.4,474.1,4,Cancelled,36,Basic,user261@gmail.com,user261,2024-03-16 04:11:00
+U043,2024-05-24,T00262,S001,West,Los Angeles,CA,Sports,Cricket Bat,1734.6,346.92,5,Delivered,29,Basic,user262@gmail.com,user262,2024-01-27 15:09:00
+U045,2024-02-23,T00263,S003,East,Philadelphia,PA,Electronics,Monitor,147.48,36.87,4,Delivered,41,Premium,user263@gmail.com,user263,2024-03-04 22:04:00
+U070,2024-04-15,T00264,S004,West,San Francisco,CA,Clothing,Jeans,5817.08,1454.27,4,Delivered,44,Basic,user264@gmail.com,user264,2024-05-06 12:22:00
+U044,2024-03-22,T00265,S002,East,New York,NY,Clothing,Jacket,456.46,456.46,1,Pending,23,Premium,user265@gmail.com,user265,2024-03-07 03:04:00
+U056,2024-04-20,T00266,S002,West,San Francisco,CA,Sports,Tennis Racket,4250.68,1062.67,4,Delivered,21,Basic,user266@gmail.com,user266,2024-06-16 05:38:00
+U039,2024-05-18,T00267,S002,East,New York,NY,Clothing,Jeans,5443.1,1088.62,5,Delivered,19,Basic,user267@gmail.com,user267,2024-03-08 21:18:00
+U062,2024-03-16,T00268,S002,South,Dallas,TX,Electronics,Monitor,652.86,652.86,1,Delivered,18,Premium,user268@gmail.com,user268,2024-06-18 20:38:00
+U085,2024-03-19,T00269,S003,East,Philadelphia,PA,Books,Python Book,5075.12,1268.78,4,Delivered,38,Basic,user269@gmail.com,user269,2024-04-11 15:31:00
+U029,2024-03-08,T00270,S003,East,Boston,MA,Clothing,T-Shirt,1359.5,679.75,2,Cancelled,19,Premium,user270@gmail.com,user270,2024-04-22 14:16:00
+U050,2024-05-30,T00271,S005,West,Los Angeles,CA,Books,Spark Handbook,5826.56,1456.64,4,Pending,35,Basic,user271@gmail.com,user271,2024-02-28 17:03:00
+U067,2024-01-09,T00272,S005,East,Boston,MA,Books,Python Book,5424.44,1356.11,4,Cancelled,37,Premium,user272@gmail.com,user272,2024-05-08 18:57:00
+U088,2024-02-02,T00273,S004,West,San Francisco,CA,Furniture,Table,2433.04,1216.52,2,Delivered,44,Premium,user273@gmail.com,user273,2024-01-11 13:05:00
+U059,2024-05-21,T00274,S001,North,Detroit,MI,Electronics,Laptop,3373.68,843.42,4,Cancelled,37,Basic,user274@gmail.com,user274,2024-03-24 08:33:00
+U013,2024-01-26,T00275,S003,West,San Francisco,CA,Furniture,Table,4450.7,890.14,5,Cancelled,29,Basic,user275@gmail.com,user275,2024-01-28 18:49:00
+U080,2024-02-14,T00276,S005,North,Detroit,MI,Clothing,Jeans,3600.55,720.11,5,Cancelled,40,Basic,user276@gmail.com,user276,2024-03-11 12:09:00
+U044,2024-05-01,T00277,S003,West,San Francisco,CA,Books,Spark Handbook,185.9,92.95,2,Pending,26,Basic,user277@gmail.com,user277,2024-03-09 11:01:00
+U078,2024-03-23,T00278,S001,West,Los Angeles,CA,Furniture,Desk,4662.28,1165.57,4,Delivered,32,Premium,user278@gmail.com,user278,2024-03-09 23:26:00
+U091,2024-05-11,T00279,S005,South,Miami,FL,Clothing,Jeans,3705.33,1235.11,3,Pending,22,Premium,user279@gmail.com,user279,2024-02-10 02:19:00
+U036,2024-01-13,T00280,S003,East,New York,NY,Furniture,Chair,137.9,68.95,2,Pending,34,Basic,user280@gmail.com,user280,2024-04-02 22:12:00
+U071,2024-04-24,T00281,S003,West,Seattle,WA,Electronics,Phone,2230.2,743.4,3,Pending,23,Basic,user281@gmail.com,user281,2024-02-15 15:37:00
+U029,2024-05-26,T00282,S002,West,San Francisco,CA,Electronics,Keyboard,261.1,261.1,1,Pending,38,Basic,user282@gmail.com,user282,2024-02-24 07:41:00
+U078,2024-06-02,T00283,S003,West,Seattle,WA,Electronics,Keyboard,1956.22,978.11,2,Cancelled,40,Basic,user283@gmail.com,user283,2024-01-03 07:16:00
+U080,2024-03-18,T00284,S004,South,Houston,TX,Books,SQL Guide,1028.85,342.95,3,Cancelled,21,Premium,user284@gmail.com,user284,2024-06-22 16:52:00
+U036,2024-01-28,T00285,S003,North,Minneapolis,MN,Sports,Tennis Racket,1385.22,461.74,3,Pending,26,Basic,user285@gmail.com,user285,2024-05-03 02:21:00
+U088,2024-06-02,T00286,S002,East,New York,NY,Sports,Football,1212.04,1212.04,1,,18,Basic,user286@gmail.com,user286,2024-04-13 21:20:00
+U093,2024-05-29,T00287,S002,North,Detroit,MI,Clothing,T-Shirt,4441.44,1110.36,4,Cancelled,35,Basic,user287@gmail.com,user287,2024-05-26 06:21:00
+U034,2024-01-25,T00288,S005,North,Minneapolis,MN,Books,Python Book,1440.4,,5,Delivered,39,Basic,user288@gmail.com,user288,2024-04-30 04:47:00
+U038,2024-03-25,T00289,S004,West,Los Angeles,CA,Books,Python Book,1926.9,642.3,3,Delivered,33,Premium,user289@gmail.com,user289,2024-04-05 08:37:00
+U026,2024-04-15,T00290,S003,West,San Francisco,CA,Furniture,Chair,3216.64,804.16,4,Pending,36,Basic,user290@gmail.com,user290,2024-01-14 04:08:00
+U001,2024-02-15,T00291,S004,East,Boston,MA,Furniture,Chair,2049.16,512.29,4,Pending,24,Premium,user291@gmail.com,user291,2024-03-21 20:03:00
+U050,2024-04-19,T00292,S001,East,Boston,MA,Electronics,Phone,3309.45,661.89,5,Delivered,35,Premium,user292@gmail.com,user292,2024-04-13 13:30:00
+U029,2024-01-02,T00293,S003,North,Chicago,IL,Books,Spark Handbook,93.04,46.52,2,Pending,22,Premium,user293@gmail.com,user293,2024-06-09 23:15:00
+U094,2024-01-12,T00294,S005,South,Miami,FL,Sports,Cricket Bat,233.24,116.62,2,Cancelled,34,Basic,user294@gmail.com,user294,2024-03-17 09:29:00
+U030,2024-02-18,T00295,S002,South,Miami,FL,Furniture,Desk,2206.76,551.69,4,Cancelled,22,Premium,user295@gmail.com,user295,2024-02-12 12:01:00
+U082,2024-06-15,T00296,S003,West,Seattle,WA,Sports,Football,562.56,562.56,1,Cancelled,37,Premium,user296@gmail.com,user296,2024-01-10 12:56:00
+U071,2024-04-16,T00297,S003,West,Seattle,WA,Electronics,Laptop,1040.83,1040.83,1,Pending,40,Premium,user297@gmail.com,user297,2024-04-23 12:07:00
+U078,2024-06-18,T00298,S002,East,Philadelphia,PA,Electronics,Monitor,3997.04,999.26,4,Pending,44,Premium,user298@gmail.com,user298,2024-05-13 08:39:00
+U046,2024-02-21,T00299,S004,West,San Francisco,CA,Electronics,Laptop,1256.0,314.0,4,Pending,23,Premium,user299@gmail.com,user299,2024-03-08 16:12:00
+U074,2024-06-20,T00300,S004,South,Dallas,TX,Clothing,T-Shirt,48.1,24.05,2,Delivered,20,Premium,user300@gmail.com,user300,2024-01-23 03:53:00
+U006,2024-01-13,T00301,S003,West,San Francisco,CA,Furniture,Sofa,1232.73,410.91,3,Pending,43,Basic,user301@gmail.com,user301,2024-01-26 05:55:00
+U043,2024-02-05,T00302,S003,South,Miami,FL,Electronics,Laptop,34.32,34.32,1,Pending,37,Basic,user302@gmail.com,user302,2024-06-18 20:10:00
+U062,2024-04-26,T00303,S004,West,San Francisco,CA,Books,Python Book,613.15,,1,Cancelled,43,Premium,,user303,2024-03-10 12:44:00
+U057,2024-05-31,T00304,S002,West,Los Angeles,CA,Electronics,Phone,635.72,635.72,1,Cancelled,30,Basic,user304@gmail.com,user304,2024-05-03 18:43:00
+U034,2024-04-15,T00305,S003,West,Seattle,WA,Furniture,Sofa,748.6,187.15,4,Delivered,40,Premium,user305@gmail.com,user305,2024-04-22 01:04:00
+U085,2024-06-18,T00306,S004,North,Minneapolis,MN,Sports,Tennis Racket,804.8,160.96,5,Delivered,44,Premium,user306@gmail.com,user306,2024-03-04 15:22:00
+U043,2024-01-20,T00307,S003,West,Seattle,WA,Furniture,Sofa,5226.96,1306.74,4,Delivered,34,Premium,user307@gmail.com,user307,2024-05-05 10:15:00
+U064,2024-05-26,T00308,S004,South,Houston,TX,Furniture,Chair,2709.6,677.4,4,Pending,21,Basic,user308@gmail.com,user308,2024-04-24 02:54:00
+U082,2024-01-01,T00309,S003,West,Los Angeles,CA,Clothing,T-Shirt,844.55,844.55,1,Cancelled,35,Premium,user309@gmail.com,user309,2024-01-24 19:39:00
+U061,2024-03-25,T00310,S003,South,Houston,TX,Books,Python Book,2539.18,1269.59,2,Cancelled,32,Premium,user310@gmail.com,user310,2024-05-23 19:38:00
+U048,2024-06-11,T00311,S001,West,Seattle,WA,Furniture,Chair,1636.83,545.61,3,Delivered,23,Basic,user311@gmail.com,user311,2024-03-15 17:33:00
+U059,2024-02-18,T00312,S002,East,Philadelphia,PA,Clothing,Jacket,2772.18,924.06,3,Cancelled,28,Premium,user312@gmail.com,user312,2024-01-31 12:13:00
+U001,2024-05-30,T00313,S005,South,Dallas,TX,Sports,Football,2787.72,696.93,4,Cancelled,19,Basic,user313@gmail.com,,2024-05-09 04:31:00
+U042,2024-06-17,T00314,S005,South,Miami,FL,Furniture,Table,346.52,173.26,2,Pending,31,Premium,user314@gmail.com,user314,2024-06-02 19:56:00
+U096,2024-02-05,T00315,S005,North,Detroit,MI,Books,SQL Guide,4844.4,1211.1,4,Pending,44,Basic,user315@gmail.com,user315,2024-04-15 19:44:00
+U070,2024-02-03,T00316,S003,East,New York,NY,Furniture,Desk,4150.08,1383.36,3,Cancelled,21,Basic,user316@gmail.com,user316,2024-06-15 05:32:00
+U002,2024-05-16,T00317,S005,South,Miami,FL,Sports,Tennis Racket,4071.52,1017.88,4,Delivered,18,Basic,user317@gmail.com,user317,2024-03-14 13:51:00
+U019,2024-02-11,T00318,S001,East,New York,NY,Electronics,Phone,3390.81,1130.27,3,Cancelled,43,Basic,user318@gmail.com,user318,2024-03-14 21:16:00
+U083,2024-06-21,T00319,S005,East,Philadelphia,PA,Electronics,Monitor,686.68,171.67,4,Pending,25,Basic,user319@gmail.com,user319,2024-05-23 07:47:00
+U026,2024-01-14,T00320,S005,West,San Francisco,CA,Clothing,T-Shirt,4348.29,1449.43,3,Pending,44,Premium,user320@gmail.com,user320,2024-01-04 23:16:00
+U088,2024-02-19,T00321,S001,North,Minneapolis,MN,Sports,Tennis Racket,1553.85,310.77,5,Delivered,23,Premium,user321@gmail.com,user321,2024-03-16 14:11:00
+U043,2024-02-11,T00322,S004,South,Dallas,TX,Clothing,T-Shirt,2055.35,411.07,5,Cancelled,22,Premium,user322@gmail.com,user322,2024-05-29 08:00:00
+U046,2024-03-18,T00323,S001,East,Boston,MA,Sports,Football,6339.25,1267.85,5,Cancelled,28,Premium,user323@gmail.com,user323,2024-05-05 18:35:00
+U029,2024-05-17,T00324,S002,East,Philadelphia,PA,Electronics,Mouse,1271.16,635.58,2,Cancelled,28,Basic,user324@gmail.com,user324,2024-04-13 02:22:00
+U045,2024-06-15,T00325,S004,North,Detroit,MI,Furniture,Sofa,6195.3,1239.06,5,Delivered,38,Premium,user325@gmail.com,user325,2024-01-03 03:42:00
+U067,2024-05-18,T00326,S003,West,Seattle,WA,Books,SQL Guide,591.1,591.1,1,Cancelled,43,Basic,user326@gmail.com,user326,2024-03-13 00:58:00
+U069,2024-01-22,T00327,S005,South,Dallas,TX,Books,Spark Handbook,988.12,494.06,2,Delivered,38,Premium,user327@gmail.com,user327,2024-01-25 05:49:00
+U010,2024-06-28,T00328,S002,East,Philadelphia,PA,Furniture,Sofa,324.26,324.26,1,Delivered,32,Basic,user328@gmail.com,user328,2024-04-21 20:52:00
+U030,2024-05-22,T00329,S003,West,Los Angeles,CA,Electronics,Laptop,2390.88,1195.44,2,Pending,30,Basic,user329@gmail.com,user329,2024-01-19 18:52:00
+U080,2024-05-16,T00330,S001,South,Houston,TX,Books,Python Book,4065.92,1016.48,4,Cancelled,36,Premium,user330@gmail.com,user330,2024-01-02 20:46:00
+U098,2024-03-18,T00331,S004,West,San Francisco,CA,Sports,Football,3553.8,1184.6,3,Pending,30,Premium,user331@gmail.com,user331,2024-06-04 02:18:00
+U039,2024-05-19,T00332,S003,South,Dallas,TX,Sports,Football,2250.4,1125.2,2,Delivered,35,Premium,user332@gmail.com,user332,2024-03-16 20:09:00
+U096,2024-05-20,T00333,S003,West,Los Angeles,CA,Electronics,Mouse,3016.2,603.24,5,Delivered,31,Premium,user333@gmail.com,user333,2024-01-22 09:13:00
+U097,2024-06-20,T00334,S005,East,New York,NY,Furniture,Desk,379.28,189.64,2,Pending,38,Premium,user334@gmail.com,user334,2024-05-25 01:54:00
+U017,2024-05-28,T00335,S002,North,Minneapolis,MN,Electronics,Monitor,312.18,312.18,1,Delivered,27,Premium,user335@gmail.com,user335,2024-05-04 10:22:00
+U073,2024-03-19,T00336,S005,East,Boston,MA,Clothing,T-Shirt,2796.57,932.19,3,,43,Basic,user336@gmail.com,user336,2024-06-26 18:09:00
+U047,2024-06-13,T00337,S002,South,Dallas,TX,Electronics,Monitor,2365.56,1182.78,2,Cancelled,41,Basic,user337@gmail.com,user337,2024-04-21 08:53:00
+U011,2024-01-28,T00338,S003,South,Houston,TX,Clothing,T-Shirt,2222.16,740.72,3,Delivered,35,Premium,user338@gmail.com,user338,2024-02-14 20:38:00
+U052,2024-06-10,T00339,S005,North,Minneapolis,MN,Electronics,Laptop,1277.39,1277.39,1,Delivered,19,Basic,user339@gmail.com,user339,2024-01-08 18:37:00
+U065,2024-05-30,T00340,S005,South,Miami,FL,Furniture,Desk,1401.96,350.49,4,Delivered,30,Basic,user340@gmail.com,user340,2024-03-15 04:29:00
+U085,2024-02-10,T00341,S002,West,Seattle,WA,Furniture,Table,1138.75,227.75,5,Cancelled,41,Basic,user341@gmail.com,user341,2024-02-15 18:36:00
+U027,2024-04-04,T00342,S005,North,Chicago,IL,Furniture,Sofa,226.06,113.03,2,Pending,30,Basic,user342@gmail.com,user342,2024-02-29 01:42:00
+U095,2024-05-13,T00343,S003,South,Dallas,TX,Electronics,Monitor,1061.53,1061.53,1,Cancelled,35,Premium,user343@gmail.com,user343,2024-06-11 08:53:00
+U029,2024-01-20,T00344,S005,South,Miami,FL,Clothing,T-Shirt,4934.7,986.94,5,Pending,29,Basic,user344@gmail.com,user344,2024-05-12 08:24:00
+U066,2024-04-22,T00345,S003,South,Houston,TX,Sports,Football,6627.05,1325.41,5,Delivered,22,Premium,user345@gmail.com,user345,2024-02-12 07:04:00
+U062,2024-04-16,T00346,S004,East,Boston,MA,Sports,Tennis Racket,998.44,998.44,1,Pending,24,Premium,user346@gmail.com,user346,2024-03-25 23:07:00
+U006,2024-02-11,T00347,S005,South,Dallas,TX,Furniture,Chair,1737.52,868.76,2,Delivered,19,Premium,user347@gmail.com,user347,2024-02-04 20:32:00
+U085,2024-06-12,T00348,S003,North,Chicago,IL,Sports,Cricket Bat,7272.4,1454.48,5,Delivered,24,Basic,user348@gmail.com,user348,2024-01-05 23:46:00
+U066,2024-05-29,T00349,S003,South,Houston,TX,Furniture,Table,3636.96,909.24,4,Delivered,41,Basic,user349@gmail.com,user349,2024-02-16 19:42:00
+U067,2024-02-03,T00350,S005,South,Miami,FL,Sports,Football,1159.5,579.75,2,Cancelled,31,Premium,user350@gmail.com,user350,2024-01-28 00:12:00
+U062,2024-05-16,T00351,S002,West,Los Angeles,CA,Clothing,Jeans,388.85,77.77,5,Cancelled,35,Premium,user351@gmail.com,user351,2024-05-08 03:05:00
+U099,2024-04-19,T00352,S004,South,Miami,FL,Clothing,T-Shirt,1052.51,,1,Pending,36,Premium,user352@gmail.com,user352,2024-02-28 15:50:00
+U070,2024-01-22,T00353,S004,South,Dallas,TX,Books,SQL Guide,2733.86,1366.93,2,Pending,24,Premium,user353@gmail.com,user353,2024-03-13 19:56:00
+U041,2024-06-16,T00354,S004,West,Seattle,WA,Sports,Football,153.25,30.65,5,Pending,21,Premium,user354@gmail.com,user354,2024-02-22 22:51:00
+U036,2024-04-18,T00355,S004,South,Miami,FL,Sports,Cricket Bat,3856.11,1285.37,3,Delivered,31,Basic,user355@gmail.com,user355,2024-05-24 11:39:00
+U091,2024-03-19,T00356,S004,East,Boston,MA,Sports,Tennis Racket,1582.36,395.59,4,Cancelled,22,Premium,user356@gmail.com,user356,2024-05-27 11:49:00
+U088,2024-03-27,T00357,S001,East,Boston,MA,Furniture,Chair,1544.7,772.35,2,Delivered,30,Premium,user357@gmail.com,user357,2024-05-20 19:44:00
+U078,2024-03-08,T00358,S001,West,Los Angeles,CA,Clothing,Jeans,601.8,150.45,4,Cancelled,30,Basic,user358@gmail.com,user358,2024-02-26 11:05:00
+U085,2024-04-22,T00359,S005,North,Minneapolis,MN,Sports,Football,1935.26,967.63,2,Pending,24,Premium,user359@gmail.com,user359,2024-01-03 06:54:00
+U100,2024-01-01,T00360,S004,East,Philadelphia,PA,Furniture,Chair,1122.3,374.1,3,Pending,39,Basic,user360@gmail.com,user360,2024-02-10 02:17:00
+U072,2024-05-20,T00361,S005,South,Miami,FL,Furniture,Chair,1380.38,1380.38,1,Pending,29,Basic,user361@gmail.com,user361,2024-03-13 23:53:00
+U014,2024-03-07,T00362,S005,East,Philadelphia,PA,Furniture,Sofa,3483.44,870.86,4,Delivered,34,Basic,user362@gmail.com,user362,2024-02-14 13:32:00
+U049,2024-05-27,T00363,S005,North,Chicago,IL,Sports,Cricket Bat,6117.3,1223.46,5,Pending,42,Premium,user363@gmail.com,user363,2024-03-05 22:28:00
+U029,2024-03-07,T00364,S002,North,Detroit,MI,Clothing,Jeans,733.32,733.32,1,Pending,31,Basic,user364@gmail.com,user364,2024-01-18 12:40:00
+U023,2024-06-21,T00365,S004,West,Seattle,WA,Books,Python Book,472.95,157.65,3,Pending,29,Premium,user365@gmail.com,user365,2024-03-28 02:35:00
+U026,2024-03-02,T00366,S002,North,Chicago,IL,Furniture,Sofa,735.18,367.59,2,Cancelled,29,Premium,user366@gmail.com,user366,2024-03-08 06:14:00
+U080,2024-05-18,T00367,S003,West,Los Angeles,CA,Electronics,Keyboard,149.0,29.8,5,Pending,36,Basic,user367@gmail.com,user367,2024-01-11 15:23:00
+U055,2024-05-27,T00368,S004,South,Dallas,TX,Sports,Cricket Bat,1394.8,348.7,4,Cancelled,19,Basic,,user368,2024-02-02 01:33:00
+U002,2024-04-27,T00369,S002,South,Miami,FL,Furniture,Sofa,1053.4,1053.4,1,Pending,36,Premium,user369@gmail.com,user369,2024-03-21 22:00:00
+U044,2024-03-01,T00370,S003,North,Detroit,MI,Sports,Cricket Bat,1663.74,831.87,2,Delivered,33,Basic,user370@gmail.com,user370,2024-03-09 15:39:00
+U088,2024-02-16,T00371,S002,East,Boston,MA,Books,SQL Guide,1735.4,433.85,4,Delivered,41,Basic,user371@gmail.com,user371,2024-05-26 04:36:00
+U054,2024-02-08,T00372,S004,East,Philadelphia,PA,Clothing,T-Shirt,471.7,235.85,2,Delivered,45,Basic,user372@gmail.com,user372,2024-05-01 00:11:00
+U028,2024-01-26,T00373,S003,South,Houston,TX,Books,Spark Handbook,453.05,90.61,5,Pending,44,Premium,user373@gmail.com,user373,2024-06-25 05:03:00
+U053,2024-05-22,T00374,S001,South,Miami,FL,Books,SQL Guide,1659.75,553.25,3,Pending,45,Premium,user374@gmail.com,user374,2024-03-06 11:01:00
+U037,2024-04-24,T00375,S004,East,Boston,MA,Books,SQL Guide,3707.45,741.49,5,Cancelled,22,Premium,user375@gmail.com,user375,2024-01-21 12:39:00
+U030,2024-01-19,T00376,S003,North,Detroit,MI,Sports,Tennis Racket,5105.48,1276.37,4,Pending,38,Basic,user376@gmail.com,user376,2024-01-21 05:21:00
+U053,2024-04-02,T00377,S002,North,Minneapolis,MN,Clothing,T-Shirt,4703.36,1175.84,4,Delivered,45,Premium,user377@gmail.com,user377,2024-05-30 16:28:00
+U061,2024-04-11,T00378,S005,East,Philadelphia,PA,Furniture,Desk,331.65,331.65,1,Delivered,18,Basic,user378@gmail.com,user378,2024-01-27 03:04:00
+U095,2024-04-09,T00379,S003,West,Los Angeles,CA,Books,Spark Handbook,289.56,144.78,2,Pending,38,Premium,user379@gmail.com,user379,2024-03-20 07:15:00
+U070,2024-03-24,T00380,S003,East,Philadelphia,PA,Furniture,Chair,1002.05,1002.05,1,Cancelled,32,Premium,user380@gmail.com,user380,2024-05-01 14:55:00
+U045,2024-06-12,T00381,S004,East,Philadelphia,PA,Sports,Cricket Bat,3318.85,663.77,5,Cancelled,25,Premium,user381@gmail.com,user381,2024-06-12 17:19:00
+U098,2024-01-03,T00382,S002,South,Houston,TX,Books,SQL Guide,751.38,250.46,3,Pending,27,Basic,user382@gmail.com,user382,2024-01-01 16:52:00
+U001,2024-04-20,T00383,S005,West,Seattle,WA,Clothing,T-Shirt,100.56,33.52,3,Pending,24,Basic,user383@gmail.com,user383,2024-03-15 19:14:00
+U081,2024-02-26,T00384,S002,South,Houston,TX,Furniture,Table,4984.28,1246.07,4,Cancelled,42,Basic,user384@gmail.com,user384,2024-03-08 02:27:00
+U015,2024-01-18,T00385,S004,North,Minneapolis,MN,Sports,Cricket Bat,1192.96,298.24,4,Cancelled,32,Basic,user385@gmail.com,user385,2024-02-16 04:18:00
+U037,2024-05-16,T00386,S003,South,Dallas,TX,Books,Python Book,186.92,93.46,2,Delivered,40,Basic,user386@gmail.com,user386,2024-01-06 05:06:00
+U064,2024-03-28,T00387,S003,West,Los Angeles,CA,Electronics,Phone,750.5,750.5,1,Pending,40,Premium,user387@gmail.com,user387,2024-04-17 09:50:00
+U025,2024-01-19,T00388,S003,North,Chicago,IL,Furniture,Chair,3503.91,1167.97,3,Pending,44,Premium,user388@gmail.com,user388,2024-05-19 15:11:00
+U099,2024-01-09,T00389,S001,West,Seattle,WA,Furniture,Sofa,1543.2,385.8,4,Cancelled,39,Premium,user389@gmail.com,user389,2024-02-20 14:47:00
+U033,2024-01-11,T00390,S004,South,Houston,TX,Books,SQL Guide,1902.32,951.16,2,Cancelled,27,Premium,user390@gmail.com,user390,2024-05-20 16:07:00
+U036,2024-03-24,T00391,S005,North,Chicago,IL,Furniture,Chair,1913.42,956.71,2,Delivered,30,Premium,user391@gmail.com,user391,2024-01-04 05:50:00
+U021,2024-02-09,T00392,S004,West,Los Angeles,CA,Sports,Tennis Racket,4155.36,1038.84,4,Delivered,39,Basic,user392@gmail.com,user392,2024-04-05 02:15:00
+U041,2024-01-28,T00393,S005,West,Los Angeles,CA,Books,Spark Handbook,2115.94,1057.97,2,Cancelled,42,Basic,user393@gmail.com,user393,2024-02-02 15:14:00
+U091,2024-02-04,T00394,S004,South,Miami,FL,Furniture,Chair,2200.36,550.09,4,Cancelled,27,Basic,user394@gmail.com,user394,2024-03-05 01:31:00
+U009,2024-03-11,T00395,S005,East,Philadelphia,PA,Furniture,Desk,3311.88,1103.96,3,Delivered,32,Basic,user395@gmail.com,user395,2024-06-02 17:10:00
+U003,2024-05-09,T00396,S005,North,Minneapolis,MN,Books,SQL Guide,1168.36,1168.36,1,Pending,42,Premium,user396@gmail.com,user396,2024-04-07 23:11:00
+U079,2024-06-23,T00397,S003,North,Minneapolis,MN,Electronics,Mouse,1204.04,301.01,4,Pending,31,Basic,user397@gmail.com,user397,2024-05-07 17:09:00
+U014,2024-02-03,T00398,S004,West,Los Angeles,CA,Sports,Tennis Racket,84.79,84.79,1,Delivered,21,Premium,user398@gmail.com,user398,2024-02-15 01:12:00
+U078,2024-03-06,T00399,S001,South,Miami,FL,Clothing,Jeans,5289.7,1057.94,5,Delivered,24,Basic,user399@gmail.com,user399,2024-01-13 11:14:00
+U079,2024-04-16,T00400,S003,West,San Francisco,CA,Electronics,Monitor,5601.75,1120.35,5,Cancelled,19,Premium,user400@gmail.com,user400,2024-04-04 22:03:00
+U068,2024-05-16,T00401,S002,North,Chicago,IL,Furniture,Chair,1093.25,1093.25,1,Cancelled,38,Premium,user401@gmail.com,user401,2024-04-08 06:12:00
+U014,2024-06-28,T00402,S002,South,Miami,FL,Electronics,Mouse,3054.75,1018.25,3,Delivered,35,Basic,user402@gmail.com,user402,2024-06-19 13:56:00
+U098,2024-05-20,T00403,S004,North,Minneapolis,MN,Furniture,Sofa,4067.04,1355.68,3,Cancelled,28,Premium,user403@gmail.com,user403,2024-03-24 11:26:00
+U093,2024-04-25,T00404,S001,East,Boston,MA,Sports,Tennis Racket,1658.43,552.81,3,Pending,37,Premium,,user404,2024-04-24 12:00:00
+U036,2024-03-21,T00405,S005,East,Boston,MA,Electronics,Monitor,675.88,337.94,2,Cancelled,35,Premium,user405@gmail.com,user405,2024-01-06 22:52:00
+U033,2024-04-03,T00406,S003,West,Los Angeles,CA,Clothing,T-Shirt,449.68,224.84,2,Delivered,36,Basic,user406@gmail.com,user406,2024-05-29 07:14:00
+U013,2024-06-25,T00407,S005,East,Philadelphia,PA,Electronics,Monitor,1103.6,275.9,4,Cancelled,27,Premium,user407@gmail.com,user407,2024-06-28 18:52:00
+U099,2024-04-21,T00408,S002,South,Dallas,TX,Electronics,Monitor,3966.27,1322.09,3,Cancelled,38,Premium,user408@gmail.com,user408,2024-04-16 03:55:00
+U090,2024-05-24,T00409,S002,South,Dallas,TX,Books,Spark Handbook,492.59,492.59,1,Delivered,19,Basic,user409@gmail.com,user409,2024-02-08 10:32:00
+U044,2024-03-15,T00410,S001,South,Miami,FL,Sports,Tennis Racket,348.69,348.69,1,Pending,36,Premium,user410@gmail.com,user410,2024-04-10 04:08:00
+U072,2024-06-27,T00411,S002,South,Houston,TX,Electronics,Keyboard,3315.25,663.05,5,Pending,30,Premium,user411@gmail.com,user411,2024-02-03 04:30:00
+U053,2024-05-27,T00412,S004,East,New York,NY,Electronics,Monitor,1994.6,498.65,4,Pending,29,Premium,user412@gmail.com,user412,2024-01-23 03:42:00
+U057,2024-02-13,T00413,S005,North,Detroit,MI,Sports,Tennis Racket,1159.13,1159.13,1,Delivered,32,Premium,user413@gmail.com,user413,2024-03-30 19:52:00
+U019,2024-01-14,T00414,S003,East,New York,NY,Books,Python Book,186.31,186.31,1,Delivered,28,Premium,user414@gmail.com,user414,2024-03-03 19:59:00
+U067,2024-05-17,T00415,S003,North,Detroit,MI,Clothing,Jacket,987.99,329.33,3,Cancelled,33,Premium,user415@gmail.com,user415,2024-02-24 06:34:00
+U090,2024-02-13,T00416,S005,West,San Francisco,CA,Sports,Tennis Racket,421.75,84.35,5,Pending,19,Basic,user416@gmail.com,user416,2024-01-16 09:12:00
+U038,2024-06-17,T00417,S004,West,Los Angeles,CA,Clothing,Jeans,3003.63,1001.21,3,Delivered,30,Premium,,user417,2024-04-02 03:01:00
+U092,2024-05-08,T00418,S001,North,Detroit,MI,Sports,Tennis Racket,295.9,295.9,1,Delivered,25,Basic,user418@gmail.com,user418,2024-04-27 17:59:00
+U039,2024-06-24,T00419,S002,North,Detroit,MI,Clothing,Jeans,94.38,47.19,2,Cancelled,26,Premium,user419@gmail.com,user419,2024-03-31 11:40:00
+U012,2024-03-28,T00420,S004,North,Detroit,MI,Electronics,Mouse,1061.58,353.86,3,Cancelled,39,Premium,user420@gmail.com,user420,2024-04-10 21:08:00
+U017,2024-06-03,T00421,S002,South,Dallas,TX,Sports,Football,5825.6,1456.4,4,Cancelled,22,Premium,user421@gmail.com,user421,2024-03-25 14:34:00
+U021,2024-02-07,T00422,S003,East,Boston,MA,Sports,Football,5974.44,,4,Delivered,35,Premium,user422@gmail.com,user422,2024-06-16 18:58:00
+U096,2024-04-15,T00423,S003,East,Boston,MA,Furniture,Chair,3967.8,1322.6,3,Delivered,42,Premium,user423@gmail.com,user423,2024-04-15 09:28:00
+U077,2024-06-04,T00424,S002,West,Los Angeles,CA,Furniture,Chair,4665.4,933.08,5,Delivered,39,Premium,user424@gmail.com,user424,2024-05-25 19:14:00
+U050,2024-04-30,T00425,S004,North,Chicago,IL,Clothing,Jacket,6361.4,1272.28,5,Pending,22,Premium,user425@gmail.com,user425,2024-06-15 11:11:00
+U026,2024-04-15,T00426,S002,East,New York,NY,Electronics,Keyboard,1389.64,1389.64,1,Delivered,23,Basic,user426@gmail.com,user426,2024-02-26 23:42:00
+U049,2024-01-11,T00427,S003,South,Miami,FL,Books,SQL Guide,1305.56,652.78,2,Pending,37,Premium,user427@gmail.com,user427,2024-06-04 23:52:00
+U067,2024-04-11,T00428,S001,West,San Francisco,CA,Clothing,Jacket,1575.36,787.68,2,,27,Basic,user428@gmail.com,user428,2024-01-11 17:24:00
+U019,2024-06-05,T00429,S004,South,Houston,TX,Books,SQL Guide,1290.48,,2,Cancelled,32,Premium,user429@gmail.com,user429,2024-01-14 22:33:00
+U023,2024-04-15,T00430,S004,West,Los Angeles,CA,Sports,Tennis Racket,1101.25,220.25,5,Cancelled,40,Premium,user430@gmail.com,user430,2024-03-23 14:01:00
+U058,2024-02-01,T00431,S003,South,Dallas,TX,Books,SQL Guide,2166.38,1083.19,2,Delivered,34,Basic,user431@gmail.com,user431,2024-01-24 03:45:00
+U020,2024-03-26,T00432,S002,East,Boston,MA,Sports,Cricket Bat,1157.03,1157.03,1,Delivered,23,Premium,user432@gmail.com,user432,2024-05-24 21:55:00
+U001,2024-02-16,T00433,S005,South,Houston,TX,Books,Spark Handbook,1789.6,447.4,4,Pending,18,Basic,user433@gmail.com,user433,2024-01-31 04:12:00
+U061,2024-03-01,T00434,S004,South,Houston,TX,Sports,Football,6632.0,1326.4,5,Pending,32,Premium,user434@gmail.com,user434,2024-02-25 18:42:00
+U008,2024-02-23,T00435,S003,West,Los Angeles,CA,Sports,Cricket Bat,4751.9,950.38,5,Delivered,22,Premium,user435@gmail.com,user435,2024-01-13 05:09:00
+U079,2024-02-15,T00436,S005,North,Detroit,MI,Electronics,Laptop,637.1,637.1,1,Cancelled,43,Premium,,user436,2024-02-11 21:18:00
+U049,2024-03-17,T00437,S001,South,Miami,FL,Sports,Cricket Bat,157.83,157.83,1,Pending,44,Premium,user437@gmail.com,user437,2024-03-23 11:57:00
+U027,2024-04-15,T00438,S005,North,Detroit,MI,Furniture,Chair,1521.69,507.23,3,Delivered,21,Premium,user438@gmail.com,user438,2024-05-14 06:44:00
+U080,2024-03-22,T00439,S003,South,Miami,FL,Sports,Tennis Racket,1956.12,652.04,3,,37,Basic,user439@gmail.com,user439,2024-03-07 16:36:00
+U081,2024-01-01,T00440,S001,South,Houston,TX,Furniture,Table,4407.9,1469.3,3,Cancelled,45,Premium,user440@gmail.com,user440,2024-01-31 00:29:00
+U026,2024-06-12,T00441,S003,South,Houston,TX,Electronics,Monitor,2548.23,849.41,3,Pending,43,Premium,user441@gmail.com,user441,2024-02-24 00:40:00
+U051,2024-01-30,T00442,S005,North,Detroit,MI,Sports,Tennis Racket,3465.63,1155.21,3,Cancelled,18,Premium,user442@gmail.com,user442,2024-06-24 10:21:00
+U020,2024-01-10,T00443,S004,East,Boston,MA,Books,Spark Handbook,5503.68,1375.92,4,Cancelled,28,Basic,user443@gmail.com,user443,2024-06-14 04:30:00
+U003,2024-06-22,T00444,S002,South,Miami,FL,Electronics,Mouse,2568.36,856.12,3,Cancelled,39,Basic,user444@gmail.com,user444,2024-03-21 17:34:00
+U022,2024-04-06,T00445,S005,North,Chicago,IL,Furniture,Desk,521.95,521.95,1,,30,Premium,user445@gmail.com,user445,2024-06-09 17:53:00
+U058,2024-01-23,T00446,S003,West,San Francisco,CA,Books,Spark Handbook,421.82,421.82,1,Delivered,34,Basic,user446@gmail.com,user446,2024-05-07 07:23:00
+U062,2024-04-23,T00447,S005,East,New York,NY,Books,Python Book,2743.52,1371.76,2,Delivered,24,Basic,user447@gmail.com,user447,2024-05-09 00:51:00
+U027,2024-01-26,T00448,S001,South,Miami,FL,Sports,Cricket Bat,696.24,232.08,3,Pending,30,Premium,user448@gmail.com,user448,2024-05-12 21:08:00
+U085,2024-01-12,T00449,S003,West,San Francisco,CA,Electronics,Mouse,513.27,513.27,1,Delivered,36,Basic,user449@gmail.com,user449,2024-01-27 16:49:00
+U035,2024-03-22,T00450,S002,East,Boston,MA,Furniture,Table,1288.32,429.44,3,Delivered,26,Premium,user450@gmail.com,user450,2024-04-22 21:07:00
+U019,2024-03-30,T00451,S003,West,Seattle,WA,Sports,Tennis Racket,325.73,325.73,1,Cancelled,25,Premium,user451@gmail.com,user451,2024-05-20 10:17:00
+U087,2024-02-03,T00452,S001,West,San Francisco,CA,Sports,Cricket Bat,3383.0,676.6,5,Delivered,30,Premium,user452@gmail.com,user452,2024-01-08 15:57:00
+U079,2024-06-10,T00453,S003,West,San Francisco,CA,Clothing,Jacket,6695.45,1339.09,5,Pending,28,Premium,user453@gmail.com,user453,2024-06-25 22:28:00
+U040,2024-06-27,T00454,S004,West,San Francisco,CA,Sports,Football,1223.02,1223.02,1,Pending,25,Premium,user454@gmail.com,user454,2024-04-29 03:29:00
+U063,2024-06-19,T00455,S001,East,Philadelphia,PA,Books,SQL Guide,1165.44,291.36,4,Delivered,33,Premium,user455@gmail.com,user455,2024-03-25 10:29:00
+U014,2024-06-03,T00456,S004,North,Detroit,MI,Clothing,Jacket,3469.65,1156.55,3,Cancelled,43,Premium,user456@gmail.com,user456,2024-05-27 04:32:00
+U032,2024-05-31,T00457,S005,North,Minneapolis,MN,Electronics,Monitor,3511.2,702.24,5,Delivered,33,Basic,user457@gmail.com,user457,2024-04-15 07:39:00
+U023,2024-03-28,T00458,S001,West,San Francisco,CA,Furniture,Sofa,3437.88,859.47,4,Cancelled,40,Basic,user458@gmail.com,user458,2024-05-19 22:15:00
+U009,2024-04-23,T00459,S005,West,Seattle,WA,Sports,Cricket Bat,2524.59,841.53,3,Delivered,39,Basic,user459@gmail.com,user459,2024-02-15 09:25:00
+U019,2024-05-28,T00460,S002,North,Detroit,MI,Electronics,Laptop,2458.42,1229.21,2,Pending,35,Basic,user460@gmail.com,user460,2024-06-11 00:48:00
+U087,2024-03-22,T00461,S003,South,Miami,FL,Sports,Cricket Bat,648.76,324.38,2,Pending,40,Basic,user461@gmail.com,user461,2024-03-17 18:50:00
+U071,2024-02-02,T00462,S001,West,Seattle,WA,Electronics,Mouse,3091.05,618.21,5,Delivered,40,Basic,user462@gmail.com,user462,2024-03-16 01:23:00
+U049,2024-04-10,T00463,S004,West,San Francisco,CA,Electronics,Phone,4237.16,1059.29,4,Pending,31,Premium,user463@gmail.com,user463,2024-06-09 10:45:00
+U086,2024-04-02,T00464,S002,East,Boston,MA,Furniture,Table,2946.0,589.2,5,Delivered,18,Premium,,user464,2024-04-16 04:18:00
+U054,2024-02-04,T00465,S004,West,Los Angeles,CA,Clothing,Jeans,5851.84,1462.96,4,Cancelled,37,Basic,user465@gmail.com,user465,2024-01-22 04:41:00
+U055,2024-04-08,T00466,S005,East,Boston,MA,Sports,Cricket Bat,6168.55,1233.71,5,Delivered,36,Basic,user466@gmail.com,,2024-03-31 07:11:00
+U073,2024-05-27,T00467,S004,East,Philadelphia,PA,Sports,Cricket Bat,5565.28,1391.32,4,Cancelled,29,Premium,user467@gmail.com,user467,2024-04-03 01:02:00
+U067,2024-03-12,T00468,S005,South,Miami,FL,Electronics,Phone,7378.5,1475.7,5,Delivered,25,Basic,user468@gmail.com,user468,2024-04-29 16:05:00
+U059,2024-03-28,T00469,S005,West,Seattle,WA,Sports,Tennis Racket,2781.9,927.3,3,Pending,36,Basic,user469@gmail.com,user469,2024-05-16 00:30:00
+U073,2024-06-01,T00470,S003,South,Houston,TX,Books,SQL Guide,144.56,,2,Delivered,38,Basic,user470@gmail.com,user470,2024-03-18 23:50:00
+U010,2024-05-04,T00471,S003,East,Philadelphia,PA,Electronics,Monitor,302.0,60.4,5,Pending,22,Basic,user471@gmail.com,,2024-01-22 04:32:00
+U048,2024-05-31,T00472,S002,North,Detroit,MI,Electronics,Laptop,1392.15,278.43,5,Pending,43,Premium,user472@gmail.com,user472,2024-02-08 21:28:00
+U064,2024-02-07,T00473,S004,South,Dallas,TX,Sports,Football,4429.29,1476.43,3,Pending,25,Basic,user473@gmail.com,user473,2024-06-01 04:53:00
+U060,2024-03-08,T00474,S004,East,New York,NY,Sports,Tennis Racket,301.2,,3,Pending,27,Basic,user474@gmail.com,user474,2024-01-30 01:10:00
+U058,2024-04-21,T00475,S004,East,Boston,MA,Clothing,T-Shirt,704.46,234.82,3,Cancelled,28,Premium,user475@gmail.com,,2024-01-04 09:59:00
+U013,2024-03-10,T00476,S003,West,Seattle,WA,Books,SQL Guide,6893.5,1378.7,5,Cancelled,36,Basic,user476@gmail.com,user476,2024-03-26 08:17:00
+U002,2024-06-25,T00477,S001,South,Miami,FL,Furniture,Table,2596.8,,5,Delivered,18,Basic,user477@gmail.com,user477,2024-02-16 10:35:00
+U004,2024-03-13,T00478,S005,West,Seattle,WA,Electronics,Keyboard,1034.22,344.74,3,Delivered,19,Premium,user478@gmail.com,user478,2024-03-05 06:02:00
+U024,2024-06-17,T00479,S001,West,Seattle,WA,Electronics,Laptop,1061.3,212.26,5,Cancelled,23,Basic,user479@gmail.com,user479,2024-06-14 18:51:00
+U021,2024-06-26,T00480,S001,North,Detroit,MI,Electronics,Keyboard,3475.95,1158.65,3,Pending,42,Premium,user480@gmail.com,user480,2024-06-19 10:16:00
+U063,2024-03-08,T00481,S002,South,Houston,TX,Books,Python Book,4302.9,1434.3,3,Cancelled,30,Premium,user481@gmail.com,user481,2024-02-15 14:04:00
+U014,2024-01-28,T00482,S001,South,Dallas,TX,Furniture,Sofa,1857.34,928.67,2,,20,Basic,user482@gmail.com,user482,2024-04-23 22:16:00
+U090,2024-06-19,T00483,S003,South,Dallas,TX,Clothing,Jacket,1400.68,1400.68,1,Pending,36,Premium,user483@gmail.com,user483,2024-04-09 08:09:00
+U100,2024-01-01,T00484,S004,South,Houston,TX,Clothing,T-Shirt,819.39,819.39,1,Delivered,36,Basic,user484@gmail.com,user484,2024-04-08 22:52:00
+U044,2024-06-14,T00485,S001,North,Minneapolis,MN,Books,SQL Guide,955.76,,1,Pending,42,Basic,user485@gmail.com,user485,2024-01-24 11:34:00
+U014,2024-03-17,T00486,S003,East,New York,NY,Sports,Football,3991.56,997.89,4,Pending,20,Basic,user486@gmail.com,user486,2024-06-27 12:57:00
+U009,2024-05-31,T00487,S005,East,New York,NY,Electronics,Phone,1085.21,1085.21,1,Cancelled,27,Basic,user487@gmail.com,user487,2024-03-02 15:24:00
+U084,2024-01-11,T00488,S005,South,Dallas,TX,Electronics,Monitor,519.82,519.82,1,Pending,39,Premium,user488@gmail.com,user488,2024-04-13 03:13:00
+U090,2024-04-30,T00489,S002,East,New York,NY,Electronics,Phone,3950.68,987.67,4,Delivered,23,Premium,user489@gmail.com,user489,2024-06-07 01:15:00
+U077,2024-01-17,T00490,S005,North,Chicago,IL,Clothing,Jeans,2512.64,1256.32,2,Delivered,20,Premium,user490@gmail.com,user490,2024-01-28 03:31:00
+U028,2024-05-27,T00491,S001,South,Houston,TX,Clothing,T-Shirt,1464.26,1464.26,1,Cancelled,23,Basic,,user491,2024-05-19 04:20:00
+U032,2024-04-04,T00492,S005,West,Los Angeles,CA,Books,Python Book,1074.88,268.72,4,Delivered,22,Premium,user492@gmail.com,,2024-05-21 05:28:00
+U076,2024-02-15,T00493,S003,South,Dallas,TX,Electronics,Keyboard,29.4,29.4,1,Pending,40,Basic,user493@gmail.com,user493,2024-01-23 22:41:00
+U005,2024-03-02,T00494,S005,East,New York,NY,Furniture,Desk,3433.1,686.62,5,Delivered,40,Basic,user494@gmail.com,user494,2024-02-14 19:44:00
+U013,2024-03-01,T00495,S005,West,Seattle,WA,Books,SQL Guide,107.04,26.76,4,Pending,45,Premium,user495@gmail.com,user495,2024-02-19 03:33:00
+U023,2024-02-08,T00496,S002,South,Miami,FL,Furniture,Desk,306.7,306.7,1,Cancelled,19,Premium,user496@gmail.com,user496,2024-06-24 15:31:00
+U007,2024-04-26,T00497,S005,North,Detroit,MI,Furniture,Sofa,1544.28,514.76,3,Delivered,23,Premium,user497@gmail.com,user497,2024-01-12 03:47:00
+U026,2024-05-31,T00498,S003,South,Miami,FL,Electronics,Laptop,2175.36,1087.68,2,Delivered,42,Premium,user498@gmail.com,user498,2024-05-28 10:26:00
+U075,2024-04-06,T00499,S004,North,Chicago,IL,Electronics,Phone,5229.72,1307.43,4,Delivered,31,Premium,user499@gmail.com,user499,2024-02-26 02:30:00
+U035,2024-04-27,T00500,S002,East,Philadelphia,PA,Clothing,Jacket,2291.04,572.76,4,Pending,22,Premium,user500@gmail.com,user500,2024-02-19 20:22:00
+U055,2024-03-12,T00001,S003,East,Philadelphia,PA,Sports,Cricket Bat,1369.66,,2,Pending,22,Premium,user1@gmail.com,user1,2024-01-02 05:44:00
+U006,2024-03-29,T00002,S004,North,Chicago,IL,Electronics,Keyboard,551.29,551.29,1,Cancelled,21,Basic,user2@gmail.com,user2,2024-06-03 08:51:00
+U009,2024-04-02,T00003,S001,West,Seattle,WA,Books,Spark Handbook,6652.35,1330.47,5,Cancelled,25,Basic,user3@gmail.com,user3,2024-05-27 06:45:00
+U027,2024-04-03,T00004,S003,West,Los Angeles,CA,Electronics,Keyboard,2073.15,691.05,3,Cancelled,39,Premium,user4@gmail.com,user4,2024-02-11 11:22:00
+U088,2024-06-12,T00005,S003,East,Philadelphia,PA,Furniture,Table,2326.36,581.59,4,Delivered,25,Premium,user5@gmail.com,user5,2024-06-25 17:14:00
+U064,2024-05-25,T00006,S004,North,Detroit,MI,Books,Python Book,2742.88,1371.44,2,,32,Premium,user6@gmail.com,user6,2024-03-21 06:41:00
+U018,2024-05-29,T00007,S005,North,Chicago,IL,Furniture,Desk,3270.4,654.08,5,Pending,20,Premium,user7@gmail.com,user7,2024-04-12 11:14:00
+U033,2024-04-07,T00008,S005,West,Los Angeles,CA,Furniture,Sofa,570.1,114.02,5,Delivered,39,Premium,,user8,2024-06-01 14:33:00
+U093,2024-04-26,T00009,S003,North,Minneapolis,MN,Books,Python Book,1990.35,663.45,3,Cancelled,42,Premium,user9@gmail.com,user9,2024-01-01 23:56:00
+U100,2024-02-09,T00010,S005,West,Seattle,WA,Books,Spark Handbook,4606.4,921.28,5,Delivered,37,Basic,user10@gmail.com,user10,2024-04-05 05:34:00
+U094,2024-03-02,T00011,S004,South,Dallas,TX,Electronics,Monitor,1123.17,374.39,3,Delivered,42,Premium,user11@gmail.com,user11,2024-05-25 02:05:00
+U070,2024-06-04,T00012,S002,East,Philadelphia,PA,Clothing,Jeans,824.56,412.28,2,Cancelled,27,Basic,user12@gmail.com,user12,2024-04-18 06:59:00
+U071,2024-01-17,T00013,S002,North,Detroit,MI,Sports,Cricket Bat,386.9,386.9,1,Cancelled,25,Premium,,user13,2024-03-27 00:37:00
+U036,2024-03-25,T00014,S004,West,Seattle,WA,Electronics,Phone,1360.02,1360.02,1,Delivered,35,Premium,user14@gmail.com,user14,2024-01-19 16:15:00
+U053,2024-06-17,T00015,S004,South,Dallas,TX,Clothing,T-Shirt,319.2,159.6,2,,19,Premium,user15@gmail.com,user15,2024-04-20 11:27:00
+U024,2024-05-17,T00016,S003,West,San Francisco,CA,Books,Python Book,607.1,303.55,2,Pending,25,Premium,user16@gmail.com,user16,2024-04-24 04:27:00
+U063,2024-01-24,T00017,S004,South,Miami,FL,Electronics,Laptop,6286.6,1257.32,5,,45,Basic,user17@gmail.com,,2024-03-01 05:26:00
+U094,2024-04-26,T00018,S005,West,Los Angeles,CA,Clothing,Jacket,1650.0,412.5,4,Cancelled,40,Basic,user18@gmail.com,user18,2024-03-14 13:44:00
+U008,2024-05-18,T00019,S001,East,New York,NY,Books,Python Book,877.19,877.19,1,Cancelled,33,Premium,user19@gmail.com,user19,2024-01-16 23:20:00
+U073,2024-06-21,T00020,S002,West,Seattle,WA,Electronics,Phone,900.65,900.65,1,Cancelled,37,Premium,user20@gmail.com,user20,2024-03-01 12:07:00
