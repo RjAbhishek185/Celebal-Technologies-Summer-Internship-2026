@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Celebal Technologies Summer Internship 2026
+#  Celebal Technologies Summer Internship 2026
 
 ### Data Engineering Internship Portfolio
 
