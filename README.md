@@ -1,183 +1,104 @@
-# Week 5 - Apache Spark (PySpark)
+# Celebal Technologies Summer Internship 2026
 
-## Celebal Technologies Data Engineering Internship
+## Data Engineering Internship
 
-### Overview
+Welcome to my **Celebal Technologies Summer Internship 2026** repository. This repository contains all the assignments, projects, notebooks, datasets, and reports completed during my **8-week Data Engineering Internship**.
 
-This repository contains the Week 5 assignment completed as part of the **Celebal Technologies Data Engineering Internship**. The assignment focuses on learning and implementing core Apache Spark (PySpark) concepts used for distributed data processing and large-scale data analytics.
-
-A custom **Retail Sales** dataset was created to demonstrate various PySpark operations, including data cleaning, filtering, aggregation, duplicate removal, null value handling, timestamp conversion, and processing pipelines.
+Throughout the internship, I worked on SQL, Azure Data Factory, Apache Spark (PySpark), and various Data Engineering concepts while gaining hands-on experience with real-world data processing workflows.
 
 ---
 
-## Assignment Objectives
-
-- Understand the limitations of traditional MapReduce.
-- Learn Spark's in-memory computing architecture.
-- Perform data cleaning using PySpark.
-- Remove duplicate records.
-- Handle missing values.
-- Apply filtering and aggregation operations.
-- Perform groupBy transformations.
-- Convert data types using Spark.
-- Understand Spark Shuffle operations.
-- Build an end-to-end data processing pipeline.
-
----
-
-## Project Structure
+## Repository Structure
 
 ```
-Week-05/
+Celebal-Technologies-Summer-Internship-2026
 │
-├── data/
-│   └── retail_sales.csv
-│
-├── notebooks/
-│   └── Week5_PySpark_Assignment.ipynb
-│
-├── Week5_Report.docx
+├── Week-01/
+├── Week-02/
+├── Week-03/
+├── Week-04/
+├── Week-05/
+├── Week-06/
 │
 └── README.md
 ```
 
 ---
 
-## Dataset Description
+## Weekly Progress
 
-A custom Retail Sales dataset was generated specifically for this assignment.
-
-### Dataset Features
-
-- 500+ retail transaction records
-- Duplicate records for data cleaning
-- Missing values for null handling
-- Multiple stores and regions
-- Different product categories
-- Customer demographic information
-- Transaction timestamps
-
-### Dataset Columns
-
-- user_id
-- transaction_date
-- transaction_id
-- store_id
-- region
-- city
-- state
-- product_category
-- product_name
-- sale_amount
-- price
-- quantity
-- status
-- age
-- subscription
-- email
-- username
-- raw_timestamp
+| Week | Topic | Status |
+|------|-------|:------:|
+| Week 1 | SQL Fundamentals | ✅ |
+| Week 2 | Database Design & SQL Queries | ✅ |
+| Week 3 | Advanced SQL & Stored Procedures | ✅ |
+| Week 4 | Azure Data Factory | ✅ |
+| Week 5 | Apache Spark (PySpark) Fundamentals | ✅ |
+| Week 6 | Spark Architecture & Data Processing | ✅ |
 
 ---
 
 ## Technologies Used
 
-- Python 3
+- Python
+- SQL
+- MySQL
 - Apache Spark (PySpark)
+- Azure Data Factory
 - Pandas
+- NumPy
+- Faker
 - Jupyter Notebook
-- Java
 - Visual Studio Code
+- Git & GitHub
 
 ---
 
-## Assignment Topics Covered
+## Repository Contents
 
-### Theoretical Concepts
+Each weekly folder contains:
 
-- Limitations of MapReduce
-- In-Memory Computing
-- Spark Shuffle
-- DataFrame Immutability
-- Handling Null Values
-- Schema Inference
-
-### Practical Implementation
-
-- Creating Spark Session
-- Loading CSV Files
-- Data Inspection
-- Removing Duplicate Records
-- Filtering Data
-- Handling Missing Values
-- GroupBy Operations
-- Aggregate Functions
-- Timestamp Conversion
-- Spark SQL
-- Processing Pipelines
+- Assignment Notebook
+- Source Code
+- Dataset
+- README Documentation
+- Assignment Report (PDF)
 
 ---
 
-## Key PySpark Operations
+## Skills Gained
 
-- `dropDuplicates()`
-- `filter()`
-- `groupBy()`
-- `agg()`
-- `avg()`
-- `count()`
-- `sum()`
-- `min()`
-- `max()`
-- `na.fill()`
-- `withColumn()`
-- `cast()`
-- `createOrReplaceTempView()`
+- SQL Query Writing
+- Database Design
+- Data Cleaning and Transformation
+- ETL Pipelines
+- Azure Data Factory
+- Apache Spark (PySpark)
+- Distributed Data Processing
+- Spark DataFrames
+- Performance Optimization
+- Data Engineering Best Practices
+- Version Control using Git & GitHub
 
 ---
 
-## Assignment Workflow
+## Internship Details
 
-1. Create a custom retail sales dataset.
-2. Load the dataset using PySpark.
-3. Inspect the dataset structure and schema.
-4. Perform data cleaning operations.
-5. Handle duplicate and missing values.
-6. Apply filtering and aggregation.
-7. Convert timestamp columns.
-8. Build a complete processing pipeline.
-9. Analyze the final output.
+**Organization:** Celebal Technologies
+
+**Role:** Data Engineering Intern
+
+**Internship Duration:** June 15, 2026 – August 15, 2026
 
 ---
 
-## Learning Outcomes
+## Connect With Me
 
-After completing this assignment, the following concepts were understood and implemented:
+**Name:** Abhishek Raj
 
-- Apache Spark architecture
-- Distributed data processing
-- In-memory computation
-- DataFrame transformations
-- DataFrame actions
-- Data cleaning techniques
-- Data aggregation
-- Spark SQL basics
-- End-to-end PySpark workflows
+- **GitHub:** https://github.com/RjAbhishek185
+- **LinkedIn:** https://www.linkedin.com/in/abhishek-raj-1589a62a1/
 
 ---
 
-## Conclusion
-
-This assignment demonstrates the practical use of Apache Spark (PySpark) for distributed data processing using a custom Retail Sales dataset. It covers essential data engineering operations such as data cleaning, transformation, aggregation, timestamp handling, and processing pipelines. The project provides hands-on experience with Spark's distributed computing model and highlights its advantages over traditional MapReduce for modern big data applications.
-
----
-
-## Author
-
-**Abhishek Raj**
-
-Data Engineering Intern
-
-Celebal Technologies Internship
-
-2026
+⭐ If you found this repository useful, feel free to explore the weekly assignments and projects.
