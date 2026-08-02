@@ -1,35 +1,51 @@
-# Week 7 – Delta Lake MERGE Implementation
+# Week 7 - Delta Lake MERGE Implementation
 
-## Overview
+## Celebal Technologies Data Engineering Internship
 
-This assignment was completed as part of the **Celebal Technologies Data Engineering Summer Internship 2026**.
+### Overview
 
-The objective is to perform incremental data processing using **Delta Lake** by implementing the **MERGE (UPSERT)** operation. The project demonstrates how to load data into Delta tables, clean datasets, simulate incremental updates, merge new records with existing data, and validate the final results.
-
----
-
-## Project Structure
-
-```text
-Week-07/
-│
-├── data/
-├── notebooks/
-├── screenshots/
-├── report/
-└── README.md
-```
+This assignment demonstrates incremental data processing using Delta Lake. The objective was to load a customer dataset into a Delta table, clean the data, process an incremental dataset, and perform UPSERT operations using the Delta Lake MERGE command.
 
 ---
 
 ## Assignment Objectives
 
-- Load a dataset into a Delta table.
-- Handle null values and remove duplicate records.
-- Create an incremental dataset.
-- Perform MERGE (UPSERT) operations.
-- Validate row counts and duplicates.
-- Display the final merged dataset.
+- Load customer data into a Delta table.
+- Handle missing values and remove duplicate records.
+- Load an incremental customer dataset.
+- Perform MERGE operation to update existing records and insert new records.
+- Validate the final dataset.
+- Display the final merged dataset and schema.
+
+---
+
+## Project Structure
+
+```
+Week-07/
+│
+├── data/
+│   ├── customer_master.csv
+│   ├── customer_incremental.csv
+│   └── README.md
+│
+├── notebooks/
+│   ├── Delta_Lake_MERGE_Assignment.ipynb
+│   └── README.md
+│
+├── screenshots/
+│   ├── data_loading/
+│   ├── data_cleaning/
+│   ├── merge_operation/
+│   ├── validation/
+│   ├── final_output/
+│   └── README.md
+│
+├── report/
+│   └── README.md
+│
+└── README.md
+```
 
 ---
 
@@ -38,30 +54,39 @@ Week-07/
 - Python
 - Apache Spark (PySpark)
 - Delta Lake
+- Google Colab
 - Pandas
-- Jupyter Notebook
-- Git & GitHub
 
 ---
 
-## Learning Outcomes
+## Assignment Workflow
 
-- Delta Lake fundamentals
-- Delta Tables
-- MERGE (UPSERT) operations
-- Incremental data processing
-- Data validation
-- Data cleaning
-- Spark DataFrames
+1. Load Customer Dataset
+2. Create Delta Table
+3. Data Cleaning
+4. Load Incremental Dataset
+5. Delta MERGE (UPSERT)
+6. Validate Results
+7. Display Final Dataset
 
 ---
 
-## Internship Details
+## Output Summary
 
-**Organization:** Celebal Technologies
+- Customer dataset loaded successfully.
+- Null values removed.
+- Duplicate records removed.
+- Incremental records processed.
+- MERGE operation completed successfully.
+- Final dataset validated.
+- Duplicate Customer IDs: 0.
 
-**Internship:** Data Engineering Summer Internship 2026
+---
 
-**Week:** 7
+## Author
 
-**Intern:** Abhishek Raj
+**Abhishek Raj**
+
+Data Engineering Intern
+
+Celebal Technologies Summer Internship 2026
