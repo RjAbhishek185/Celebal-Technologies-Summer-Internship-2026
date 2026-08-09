@@ -80,6 +80,10 @@ Week-08/
 │   ├── sql_analysis/
 │   ├── phase5_cli/
 │   └── phase6_edge_cases/
+|
+├── report/
+│   ├── README.md
+│   └── Celebal_Week_08_ECommerce_Order_Analytics_Report.docx
 │
 ├── ecommerce.db
 └── README.md
