@@ -1,8 +1,3 @@
-
----
-
-# 3. `data/raw/README.md`
-
 ```markdown
 # Raw Data
 
