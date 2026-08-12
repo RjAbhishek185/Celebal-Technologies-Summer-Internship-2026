@@ -1,21 +1,260 @@
-# 📊 Data
+````markdown
+# 📊 CityReads Data
 
-This folder contains all datasets used throughout the CityReads Data Engineering Capstone Project.
+This folder contains all datasets and data-layer outputs used in the **CityReads Data Engineering Capstone Project**.
 
-The data is organized according to the Medallion Architecture:
-
-- `cityreads_dataset/` — Original source CSV files
-- `bronze/` — Incrementally ingested raw data
-- `silver/` — Cleaned and validated data
-- `gold/` — Business-ready Gold-layer data and outputs
-
-The data flow is:
+The data follows the **Medallion Architecture**:
 
 ```text
-Source Dataset
-      ↓
+Source Data
+    ↓
 Bronze Layer
-      ↓
+    ↓
 Silver Layer
-      ↓
+    ↓
 Gold Layer
+    ↓
+Business Insights
+````
+
+---
+
+## 📁 Data Structure
+
+```text
+data/
+│
+├── cityreads_dataset/
+│   ├── books.csv
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── loans.csv
+│   └── reviews.csv
+│
+├── bronze/
+│   ├── books/
+│   ├── customers/
+│   ├── loans/
+│   ├── orders/
+│   ├── reviews/
+│   └── watermark.json
+│
+├── silver/
+│   ├── books/
+│   ├── customers/
+│   ├── loans/
+│   ├── orders/
+│   ├── reviews/
+│   └── rejected/
+│
+└── gold/
+```
+
+---
+
+## 📚 Source Dataset
+
+The `cityreads_dataset/` directory contains the original source CSV files used by the pipeline.
+
+| Dataset   |    Records |
+| --------- | ---------: |
+| Books     |        190 |
+| Customers |      2,800 |
+| Orders    |     28,336 |
+| Loans     |      9,614 |
+| Reviews   |      5,621 |
+| **Total** | **46,561** |
+
+### Source Files
+
+* `books.csv` — Book information
+* `customers.csv` — Customer information
+* `orders.csv` — Order transaction data
+* `loans.csv` — Library loan information
+* `reviews.csv` — Book reviews and ratings
+
+---
+
+## 🥉 Bronze Layer
+
+The `bronze/` directory contains incrementally ingested source data.
+
+The Bronze layer handles:
+
+* Incremental ingestion
+* Source-data preservation
+* Watermark-based processing
+* Duplicate-ingestion prevention
+* Ingestion tracking
+
+### Bronze Structure
+
+```text
+bronze/
+├── books/
+├── customers/
+├── loans/
+├── orders/
+├── reviews/
+└── watermark.json
+```
+
+### Watermark State
+
+```text
+Books       : 190
+Customers   : 2,800
+Orders      : 28,336
+Loans       : 9,614
+Reviews     : 5,621
+```
+
+A subsequent Bronze ingestion execution detected:
+
+```text
+Total new rows : 0
+```
+
+This confirms that previously processed records were not ingested again.
+
+---
+
+## 🥈 Silver Layer
+
+The `silver/` directory contains cleaned and validated data produced from the Bronze layer.
+
+The Silver layer performs:
+
+* Data validation
+* Duplicate detection
+* Data cleaning
+* Standardization
+* Date validation
+* Numeric validation
+* Business-rule validation
+* Rejected-record handling
+
+### Silver Results
+
+| Dataset   | Bronze Records | Silver Records |
+| --------- | -------------: | -------------: |
+| Books     |            190 |            190 |
+| Customers |          2,800 |          2,766 |
+| Orders    |         28,336 |         27,835 |
+| Loans     |          9,614 |          9,538 |
+| Reviews   |          5,621 |          5,522 |
+| **Total** |     **46,561** |     **45,851** |
+
+### Rejected Records
+
+A total of **710 records** were rejected during Silver-layer validation.
+
+Rejected records are stored in:
+
+```text
+silver/rejected/silver_rejected_rows.csv
+```
+
+The rejected records are retained for auditing and traceability rather than being silently discarded.
+
+---
+
+## 🥇 Gold Layer
+
+The `gold/` directory represents the business-ready stage of the pipeline.
+
+Gold-layer outputs are generated from validated Silver data and are used for business KPI analysis.
+
+The project implements five KPIs:
+
+1. Monthly Revenue Growth
+2. Customer Retention Rate
+3. Book Sell-Through Rate
+4. Library Return Compliance
+5. Review Coverage Rate
+
+### KPI Summary
+
+| KPI                       |   Actual | Target | Status |
+| ------------------------- | -------: | -----: | ------ |
+| Monthly Revenue Growth    |   68.30% | 10.00% | PASS   |
+| Customer Retention Rate   |   76.45% | 40.00% | PASS   |
+| Book Sell-Through Rate    | 8133.32% | 50.00% | PASS   |
+| Library Return Compliance |   74.18% | 80.00% | FAIL   |
+| Review Coverage Rate      |   81.58% | 80.00% | PASS   |
+
+---
+
+## 🔄 Complete Data Flow
+
+```text
+cityreads_dataset/
+       │
+       ▼
+   BRONZE
+       │
+       │ Incremental Ingestion
+       │ + Watermark
+       ▼
+   SILVER
+       │
+       │ Cleaning
+       │ Validation
+       │ Deduplication
+       │ Rejection Handling
+       ▼
+    GOLD
+       │
+       │ Business KPIs
+       ▼
+Pipeline Health Audit
+```
+
+---
+
+## 📌 Purpose
+
+The `data/` directory provides a clear separation between:
+
+* Original source data
+* Raw ingested data
+* Cleaned and validated data
+* Business-ready data
+
+This organization makes the CityReads pipeline easier to understand, maintain, test, and reproduce.
+
+---
+
+## 🔗 Related Project Components
+
+### Python Processing
+
+```text
+../scripts/bronze_ingestion.py
+../scripts/silver_transform.py
+```
+
+### Gold SQL
+
+```text
+../sql/gold/gold_kpis.sql
+```
+
+### Pipeline Audit
+
+```text
+../sql/audit/pipeline_health_audit.sql
+```
+
+---
+
+## 🏗️ Architecture
+
+The `data/` directory represents the core data-processing portion of the CityReads project:
+
+**Source → Bronze → Silver → Gold → Business Insights**
+
+This structure follows the principles of the **Medallion Architecture**.
+
+```
+```
