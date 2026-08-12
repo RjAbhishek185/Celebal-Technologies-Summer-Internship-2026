@@ -1,11 +1,11 @@
-````markdown
+
 # 📊 CityReads Data
 
 This folder contains all datasets and data-layer outputs used in the **CityReads Data Engineering Capstone Project**.
 
 The data follows the **Medallion Architecture**:
 
-```text
+
 Source Data
     ↓
 Bronze Layer
@@ -15,7 +15,6 @@ Silver Layer
 Gold Layer
     ↓
 Business Insights
-````
 
 ---
 
