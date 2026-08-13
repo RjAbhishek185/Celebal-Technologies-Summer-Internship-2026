@@ -43,7 +43,7 @@ The main objectives of the CityReads project are:
 
 The project follows the **Medallion Architecture**:
 
-text
+```text
                   CITYREADS SOURCE DATA
                          │
                          ▼
