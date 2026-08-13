@@ -73,7 +73,7 @@ The main objectives of the project are:
 8. Implement automated pipeline health auditing.
 9. Maintain an organized and reproducible project structure.
 
----
+
 
 # 🏗️ Architecture
 
@@ -616,4 +616,4 @@ Celebal Technologies Summer Internship 2026
 
 Built with Python • Pandas • MySQL • SQL • Medallion Architecture
 
-</div> ```
+</div> 
