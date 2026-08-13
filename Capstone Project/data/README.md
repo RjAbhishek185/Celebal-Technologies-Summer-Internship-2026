@@ -4,7 +4,6 @@ This folder contains all datasets and data-layer outputs used in the **CityReads
 
 The data follows the **Medallion Architecture**:
 
-
 Source Data
     ↓
 Bronze Layer
@@ -142,11 +141,11 @@ Library Return Compliance
 Review Coverage Rate
 KPI Summary
 KPI	Actual	Target	Status
-Monthly Revenue Growth	-74.32%	10.00%	FAIL
-Customer Retention Rate	47.31%	40.00%	PASS
-Book Sell-Through Rate	100.00%	50.00%	PASS
-Library Return Compliance	60.01%	80.00%	FAIL
-Review Coverage Rate	63.04%	80.00%	FAIL
+Monthly Revenue Growth	-74.32%	10.00%	❌ FAIL
+Customer Retention Rate	47.31%	40.00%	✅ PASS
+Book Sell-Through Rate	100.00%	50.00%	✅ PASS
+Library Return Compliance	60.01%	80.00%	❌ FAIL
+Review Coverage Rate	63.04%	80.00%	❌ FAIL
 🔄 Complete Data Flow
 cityreads_dataset/
        │
