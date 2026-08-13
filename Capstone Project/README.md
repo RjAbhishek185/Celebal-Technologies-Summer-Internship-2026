@@ -408,6 +408,7 @@ Top-book analysis
 Customer segmentation
 Pipeline health validation
 Final audit
+
 🛠️ Technologies Used
 Technology	Purpose
 Python	Data ingestion and transformation
@@ -422,6 +423,7 @@ Window Functions	Advanced SQL analytics
 CTEs	Query organization
 SQL Views	Gold and audit layers
 Git & GitHub	Version control
+
 💡 Key Concepts Demonstrated
 Data Engineering
 ETL/ELT
@@ -442,6 +444,7 @@ Pipeline monitoring
 PASS/FAIL validation
 Audit reporting
 Git and GitHub
+
 📁 Important Files
 Dataset Generator
 Dataset_generator.py
@@ -507,6 +510,7 @@ Organization	Celebal Technologies
 Role	Data Engineering Intern
 Program	Celebal Technologies Summer Internship 2026
 Project	CityReads Data Engineering Capstone Project
+
 👨‍💻 Author
 Abhishek Raj
 
@@ -524,41 +528,59 @@ LinkedIn
 
 https://www.linkedin.com/in/abhishek-raj-1589a62a1/
 
-🚀 Conclusion
+# 🚀 Conclusion
 
-The CityReads Data Engineering Capstone Project demonstrates an end-to-end Data Engineering workflow using the Medallion Architecture.
+CityReads demonstrates a complete Data Engineering pipeline built using the Medallion Architecture.
 
-The complete pipeline follows:
+The pipeline follows:
 
-Source CSV
-    ↓
-🥉 Bronze Ingestion
-    ↓
-🥈 Silver Data Quality Processing
-    ↓
-🥇 Gold Business KPIs
-    ↓
-🔍 Pipeline Health Audit
+Source Data
+↓
+Bronze Layer
+↓
+Silver Layer
+↓
+Gold Layer
+↓
+Pipeline Health Audit
 
-The project successfully demonstrates:
+## Key Achievements
 
-Incremental data ingestion
-Watermark-based processing
-Data cleaning and validation
-Rejected-record handling
-SQL analytics
-Business KPI generation
-Automated KPI validation
-Pipeline health auditing
+- Incremental data ingestion
+- Watermark-based processing
+- Data cleaning and validation
+- Rejected-record handling
+- SQL analytics
+- Business KPI generation
+- Automated KPI validation
+- Pipeline health auditing
 
-The final audit shows that 2 out of 5 KPIs passed, while 3 KPIs require improvement.
+## Final KPI Status
 
-The failed KPIs are not hidden or modified. They demonstrate the ability of the pipeline to identify real business exceptions through automated KPI monitoring.
+| KPI | Status |
+|---|---|
+| Monthly Revenue Growth | ❌ FAIL |
+| Customer Retention Rate | ✅ PASS |
+| Book Sell-Through Rate | ✅ PASS |
+| Library Return Compliance | ❌ FAIL |
+| Review Coverage Rate | ❌ FAIL |
 
-<div align="center">
-⭐ CityReads Data Engineering Capstone Project
+**2 out of 5 KPIs passed, while 3 KPIs require improvement.**
+
+The failed KPIs are intentionally retained to demonstrate real business exception detection and automated pipeline monitoring.
+
+---
+
+## ⭐ CityReads
+
+**Data Engineering Capstone Project**
+
 Celebal Technologies Summer Internship 2026
 
-Built with Python • Pandas • MySQL • SQL • Medallion Architecture
+Built with Python, Pandas, MySQL, SQL, and Medallion Architecture.
 
-</div> ```
+### 👨‍💻 Abhishek Raj
+
+GitHub: https://github.com/RjAbhishek185
+
+LinkedIn: https://www.linkedin.com/in/abhishek-raj-1589a62a1/
