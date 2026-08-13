@@ -37,7 +37,7 @@ The main objectives of the CityReads project are:
 - Create a final pipeline health audit.
 - Follow an organized and maintainable Data Engineering project structure.
 
-
+---
 
 # 🏗️ Architecture
 
