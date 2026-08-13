@@ -1,85 +1,71 @@
-# 📚 CityReads — Data Engineering Capstone Project
+📚 CityReads — Data Engineering Capstone Project
+Celebal Technologies Summer Internship 2026
 
-### Celebal Technologies Summer Internship 2026
+An end-to-end Data Engineering pipeline implementing Medallion Architecture, incremental ingestion, data-quality validation, business KPIs, and automated pipeline auditing.
 
-> An end-to-end Data Engineering pipeline implementing **Medallion Architecture**, incremental ingestion, data-quality validation, business KPIs, and automated pipeline auditing.
+📌 Table of Contents
+Overview
+Objectives
+Architecture
+Dataset
+Bronze Layer
+Silver Layer
+Gold Layer
+Pipeline Health Audit
+Final Results
+Project Structure
+Technologies Used
+Key Concepts
+Execution Evidence
+Important Files
+How to Run
+Internship Details
+Author
+Conclusion
+📖 Overview
 
----
+CityReads is an end-to-end Data Engineering Capstone Project developed as part of the Celebal Technologies Summer Internship 2026.
 
-## 📌 Table of Contents
+The project processes library and bookstore data through a three-layer Medallion Architecture:
 
-- [Overview](#-overview)
-- [Objectives](#-objectives)
-- [Architecture](#-architecture)
-- [Dataset](#-dataset)
-- [Bronze Layer](#-bronze-layer)
-- [Silver Layer](#-silver-layer)
-- [Gold Layer](#-gold-layer)
-- [Pipeline Health Audit](#-pipeline-health-audit)
-- [Final Results](#-final-results)
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Key Concepts](#-key-concepts)
-- [Execution Evidence](#-execution-evidence)
-- [Important Files](#-important-files)
-- [Internship Details](#-internship-details)
-- [Author](#-author)
-- [Conclusion](#-conclusion)
-
----
-
-# 📖 Overview
-
-**CityReads** is an end-to-end Data Engineering Capstone Project developed as part of the **Celebal Technologies Summer Internship 2026**.
-
-The project processes library and bookstore data through a three-layer **Medallion Architecture**:
-
-**Source CSV → Bronze → Silver → Gold → Pipeline Audit**
+Source CSV → Bronze → Silver → Gold → Pipeline Audit
 
 The pipeline processes five datasets:
 
-| Dataset | Description |
-|---|---|
-| 📚 Books | Book inventory and catalog information |
-| 👥 Customers | Customer and membership information |
-| 🛒 Orders | Book purchase transactions |
-| 📖 Loans | Library borrowing and return information |
-| ⭐ Reviews | Customer book reviews |
+Dataset	Description
+📚 Books	Book inventory and catalog information
+👥 Customers	Customer and membership information
+🛒 Orders	Book purchase transactions
+📖 Loans	Library borrowing and return information
+⭐ Reviews	Customer book reviews
 
 The project demonstrates:
 
-- Incremental data ingestion
-- Watermark-based processing
-- Data cleaning and validation
-- Rejected-record handling
-- SQL-based analytics
-- Business KPI generation
-- KPI target validation
-- Pipeline health auditing
-
----
-
-# 🎯 Objectives
+Incremental data ingestion
+Watermark-based processing
+Data cleaning and validation
+Rejected-record handling
+SQL-based analytics
+Business KPI generation
+KPI target validation
+Pipeline health auditing
+🎯 Objectives
 
 The main objectives of the project are:
 
-1. Implement incremental data ingestion.
-2. Build a raw Bronze data layer.
-3. Maintain dataset-specific watermarks.
-4. Build a cleaned and validated Silver layer.
-5. Detect invalid records and store them separately.
-6. Build business-ready Gold KPI views.
-7. Compare KPIs against predefined targets.
-8. Implement automated pipeline health auditing.
-9. Maintain an organized and reproducible project structure.
+Implement incremental data ingestion.
+Build a raw Bronze data layer.
+Maintain dataset-specific watermarks.
+Build a cleaned and validated Silver layer.
+Detect invalid records and store them separately.
+Build business-ready Gold KPI views.
+Compare KPIs against predefined targets.
+Implement automated pipeline health auditing.
+Maintain an organized and reproducible project structure.
+🏗️ Architecture
 
+The project follows the Medallion Architecture.
 
-
-# 🏗️ Architecture
-
-The project follows the **Medallion Architecture**.
-
-```text
                          CITYREADS SOURCE DATA
                                   │
                                   ▼
@@ -185,7 +171,7 @@ Reviews	5,621	5,621
 Total	46,561	46,561
 Incremental Processing Validation
 
-A second Bronze execution produced:
+A subsequent Bronze execution produced:
 
 Books       → 0 new rows
 Customers   → 0 new rows
@@ -224,6 +210,7 @@ Loans	9,614	9,402	212
 Reviews	5,621	5,454	167
 Total	46,561	45,166	1,395
 Rejected Records
+
 Total rejected records: 1,395
 
 Rejected records are stored in:
@@ -422,11 +409,8 @@ Capstone Project/
 ├── output/
 │
 ├── Dataset_generator.py
-│
 ├── requirements.txt
-│
 ├── .gitignore
-│
 └── README.md
 📸 Execution Evidence
 
@@ -526,10 +510,10 @@ Contains pipeline health and KPI validation logic.
 ▶️ How to Run
 1. Clone the Repository
 git clone https://github.com/RjAbhishek185/Celebal-Technologies-Summer-Internship-2026.git
-cd Capstone\ Project
+cd Capstone-Project
 2. Install Dependencies
 pip install -r requirements.txt
-3. Generate / Prepare Source Data
+3. Generate or Prepare Source Data
 python Dataset_generator.py
 4. Run Bronze Ingestion
 python scripts/bronze_ingestion.py
@@ -604,9 +588,7 @@ Business KPI generation
 Automated KPI validation
 Pipeline health auditing
 
-The final audit shows:
-
-2 out of 5 KPIs passed and 3 KPIs require improvement.
+The final audit shows that 2 out of 5 KPIs passed, while 3 KPIs require improvement.
 
 This demonstrates that the pipeline is capable of identifying real business exceptions rather than simply producing successful-looking results.
 
@@ -616,4 +598,4 @@ Celebal Technologies Summer Internship 2026
 
 Built with Python • Pandas • MySQL • SQL • Medallion Architecture
 
-</div> 
+</div>
