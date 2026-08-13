@@ -561,4 +561,4 @@ Celebal Technologies Summer Internship 2026
 
 Built with Python • Pandas • MySQL • SQL • Medallion Architecture
 
-</div>
+</div> ```
