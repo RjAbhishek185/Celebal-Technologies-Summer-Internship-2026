@@ -67,18 +67,18 @@ Source CSV Data
 
 | KPI                       |   Actual | Target | Status |
 | ------------------------- | -------: | -----: | ------ |
-| Monthly Revenue Growth    |   68.30% | 10.00% | ✅ PASS |
-| Customer Retention Rate   |   76.45% | 40.00% | ✅ PASS |
-| Book Sell-Through Rate    | 8133.32% | 50.00% | ✅ PASS |
-| Library Return Compliance |   74.18% | 80.00% | ❌ FAIL |
-| Review Coverage Rate      |   81.58% | 80.00% | ✅ PASS |
+| Monthly Revenue Growth    |  -74.32% | 10.00% | ❌ FAIL |
+| Customer Retention Rate   |   47.31% | 40.00% | ✅ PASS |
+| Book Sell-Through Rate    |  100.00% | 50.00% | ✅ PASS |
+| Library Return Compliance |   60.01% | 80.00% | ❌ FAIL |
+| Review Coverage Rate      |   63.04% | 80.00% | ❌ FAIL |
 
 ## 🔍 Final Pipeline Health
 
 ```text
 Total KPIs  : 5
-Passed KPIs : 4
-Failed KPIs : 1
+Passed KPIs : 2
+Failed KPIs : 3
 Overall     : FAIL
 ```
 
