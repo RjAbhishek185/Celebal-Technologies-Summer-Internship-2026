@@ -115,15 +115,15 @@ Valid Records ──────────→ Silver Layer
 | --------- | -------------: | -------------: |
 | Books     |            190 |            190 |
 | Customers |          2,800 |          2,766 |
-| Orders    |         28,336 |         27,835 |
-| Loans     |          9,614 |          9,538 |
-| Reviews   |          5,621 |          5,522 |
-| **Total** |     **46,561** |     **45,851** |
+| Orders    |         28,336 |         27,354 |
+| Loans     |          9,614 |          9,402 |
+| Reviews   |          5,621 |          5,454 |
+| **Total** |     **46,561** |     **45,166** |
 
 ### Rejected Records
 
 ```text
-Total Rejected Records : 710
+Total Rejected Records : 1395
 ```
 
 Rejected records are stored in:
