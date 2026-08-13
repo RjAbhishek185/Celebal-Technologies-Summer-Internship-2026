@@ -1,56 +1,50 @@
-📚 CityReads — Data Engineering Capstone Project
+# 📚 CityReads — Data Engineering Capstone Project
 
-Celebal Technologies Summer Internship 2026
+### Celebal Technologies Summer Internship 2026
 
-📖 Overview
+---
 
-CityReads is an end-to-end Data Engineering Capstone Project developed as part of the Celebal Technologies Summer Internship 2026.
+## 📖 Overview
 
-The project implements a production-style data pipeline using the Medallion Architecture, consisting of Bronze, Silver, and Gold layers.
+**CityReads** is an end-to-end Data Engineering Capstone Project developed as part of the **Celebal Technologies Summer Internship 2026**.
+
+The project implements a production-style data pipeline using the **Medallion Architecture**, consisting of **Bronze, Silver, and Gold layers**.
 
 The pipeline processes five datasets:
 
-📚 Books
+- 📚 Books
+- 👥 Customers
+- 🛒 Orders
+- 📖 Loans
+- ⭐ Reviews
 
-👥 Customers
+The project demonstrates **incremental data ingestion, watermark-based processing, data-quality validation, rejected-record handling, SQL-based business analytics, KPI generation, and automated pipeline health auditing**.
 
-🛒 Orders
+---
 
-📖 Loans
-
-⭐ Reviews
-
-The project demonstrates incremental data ingestion, watermark-based processing, data-quality validation, rejected-record handling, SQL-based business analytics, KPI generation, and automated pipeline health auditing.
-
-🎯 Project Objectives
+# 🎯 Project Objectives
 
 The main objectives of the CityReads project are:
 
-Implement incremental data ingestion.
+- Implement incremental data ingestion.
+- Build a Bronze layer for raw source data.
+- Maintain watermark information to prevent duplicate ingestion.
+- Build a Silver layer for data cleaning and validation.
+- Detect and handle invalid and duplicate records.
+- Store rejected records separately for auditing.
+- Build a Gold layer containing business KPIs.
+- Implement automated KPI PASS/FAIL validation.
+- Create a final pipeline health audit.
+- Follow an organized and maintainable Data Engineering project structure.
 
-Build a Bronze layer for raw source data.
+---
 
-Maintain watermark information to prevent duplicate ingestion.
+# 🏗️ Architecture
 
-Build a Silver layer for data cleaning and validation.
+The project follows the **Medallion Architecture**:
 
-Detect and handle invalid and duplicate records.
-
-Store rejected records separately for auditing.
-
-Build a Gold layer containing business KPIs.
-
-Implement automated KPI PASS/FAIL validation.
-
-Create a final pipeline health audit.
-
-Follow an organized and maintainable Data Engineering project structure.
-
-🏗️ Architecture
-
-The project follows the Medallion Architecture:
-
-                 CITYREADS SOURCE DATA
+```text
+                  CITYREADS SOURCE DATA
                          │
                          ▼
                 ┌─────────────────┐
@@ -90,38 +84,17 @@ The project follows the Medallion Architecture:
                 │                 │
                 │ PASS / FAIL     │
                 └─────────────────┘
-
 📊 Source Datasets
 
 The project uses five source datasets.
 
-Dataset
-
-Source Records
-
-📚 Books
-
-190
-
-👥 Customers
-
-2,800
-
-🛒 Orders
-
-28,336
-
-📖 Loans
-
-9,614
-
-⭐ Reviews
-
-5,621
-
-Total
-
-46,561
+Dataset	Source Records
+📚 Books	190
+👥 Customers	2,800
+🛒 Orders	28,336
+📖 Loans	9,614
+⭐ Reviews	5,621
+Total	46,561
 
 Source files are stored in:
 
@@ -134,25 +107,17 @@ customers.csv
 orders.csv
 loans.csv
 reviews.csv
-
 🥉 Bronze Layer
 
 The Bronze layer stores the incrementally ingested source data.
 
 Bronze Objectives
-
 Preserve source information.
-
 Perform incremental ingestion.
-
 Maintain processing state.
-
 Prevent duplicate ingestion.
-
 Store ingestion metadata.
-
 Bronze Structure
-
 data/
 └── bronze/
     ├── books/
@@ -166,12 +131,11 @@ data/
     ├── reviews/
     │   └── reviews_bronze.csv
     └── watermark.json
-
 Incremental Processing
 
 A separate watermark is maintained for each dataset.
 
-Current watermark state:
+The final Bronze ingestion loaded:
 
 Books       : 190
 Customers   : 2800
@@ -179,7 +143,7 @@ Orders      : 28336
 Loans       : 9614
 Reviews     : 5621
 
-A second execution of the Bronze ingestion pipeline produced:
+A subsequent execution produced:
 
 Books       → 0 new rows
 Customers   → 0 new rows
@@ -200,67 +164,22 @@ Silver Processing
 The following operations were implemented:
 
 Data validation
-
 Duplicate detection
-
 Data cleaning
-
 Standardization
-
 Date validation
-
 Numeric validation
-
 Business-rule validation
-
 Rejected-record logging
-
 Derived columns
-
 Silver Results
-
-Dataset
-
-Bronze Records
-
-Silver Records
-
-Books
-
-190
-
-190
-
-Customers
-
-2,800
-
-2,766
-
-Orders
-
-28,336
-
-27,354
-
-Loans
-
-9,614
-
-9,402
-
-Reviews
-
-5,621
-
-5,454
-
-Total
-
-46,561
-
-45,166
-
+Dataset	Bronze Records	Silver Records
+Books	190	190
+Customers	2,800	2,766
+Orders	28,336	27,354
+Loans	9,614	9,402
+Reviews	5,621	5,454
+Total	46,561	45,166
 Rejected Records
 
 Total rejected records:
@@ -274,11 +193,8 @@ data/silver/rejected/silver_rejected_rows.csv
 The rejected-record dataset maintains information such as:
 
 Table name
-
 Source ID
-
 Rejection reason
-
 Rejection timestamp
 
 This provides traceability for data-quality failures.
@@ -290,21 +206,15 @@ The Gold layer contains business-ready SQL views created using the cleaned Silve
 The following five business KPIs were implemented:
 
 📈 Monthly Revenue Growth
-
 👥 Customer Retention Rate
-
 📚 Book Sell-Through Rate
-
 📖 Library Return Compliance
-
 ⭐ Review Coverage Rate
 
 Gold SQL logic:
 
 sql/gold/gold_kpis.sql
-
 📈 Gold KPI Results
-
 1. Monthly Revenue Growth
 
 Average monthly revenue growth:
@@ -347,15 +257,11 @@ Status:
 
 PASS ✅
 
-Note: The sell-through KPI is calculated using cumulative units sold divided by the current stock value. Therefore, the percentage can exceed 100% when cumulative sales are significantly higher than the current stock value.
-
 4. Library Return Compliance
-
-
 
 Return compliance rate:
 
-74.18%
+60.01%
 
 Target:
 
@@ -366,8 +272,6 @@ Status:
 FAIL ❌
 
 5. Review Coverage Rate
-
-
 
 Review coverage rate:
 
@@ -388,84 +292,30 @@ An automated SQL-based pipeline health audit was implemented to compare actual K
 Audit SQL:
 
 sql/audit/pipeline_health_audit.sql
-
 KPI Audit Results
-
-KPI
-
-Actual
-
-Target
-
-Status
-
-Monthly Revenue Growth
-
--74.32%
-
-10.00%
-
-❌ FAIL
-
-Customer Retention Rate
-
-47.31%
-
-40.00%
-
-✅ PASS
-
-Book Sell-Through Rate
-
-100.00%
-
-50.00%
-
-✅ PASS
-
-Library Return Compliance
-
-60.01%
-
-80.00%
-
-❌ FAIL
-
-Review Coverage Rate
-
-63.04%
-
-80.00%
-
-❌ FAIL
-
+KPI	Actual	Target	Status
+Monthly Revenue Growth	-74.32%	10.00%	❌ FAIL
+Customer Retention Rate	47.31%	40.00%	✅ PASS
+Book Sell-Through Rate	100.00%	50.00%	✅ PASS
+Library Return Compliance	60.01%	80.00%	❌ FAIL
+Review Coverage Rate	63.04%	80.00%	❌ FAIL
 📋 Overall Pipeline Health
 
 The overall KPI audit produced:
 
-Metric
+Metric	Result
+Total KPIs	5
+Passed KPIs	2
+Failed KPIs	3
+Overall Status	FAIL
 
-Result
+The overall status is FAIL because three KPIs are below their defined targets:
 
-Total KPIs
+Monthly Revenue Growth: -74.32% vs 10.00%
+Library Return Compliance: 60.01% vs 80.00%
+Review Coverage Rate: 63.04% vs 80.00%
 
-5
-
-Passed KPIs
-
-2
-
-Failed KPIs
-
-3
-
-Overall Status
-
-FAIL
-
-The overall status is FAIL because three KPIs are below their defined targets: Monthly Revenue Growth (-74.32% vs 10.00%), Library Return Compliance (60.01% vs 80.00%), and Review Coverage Rate (63.04% vs 80.00%).
-
-The failure is intentionally retained to demonstrate real KPI monitoring and exception detection rather than artificially changing the result.
+The failed KPIs are intentionally retained to demonstrate real KPI monitoring and exception detection rather than artificially changing the results.
 
 🔎 Final Pipeline Audit
 
@@ -474,15 +324,10 @@ The final pipeline audit combines validation results from the Bronze, Silver, an
 The audit checks:
 
 Bronze ingestion
-
 Silver record counts
-
 Rejected records
-
 Gold KPI values
-
 KPI targets
-
 PASS/FAIL status
 
 The final audit contains 12 validation checks.
@@ -490,9 +335,27 @@ The final audit contains 12 validation checks.
 Final audit SQL:
 
 sql/audit/pipeline_health_audit.sql
-
+📊 Final Pipeline Validation
+Bronze Layer
+Books       : 190
+Customers   : 2800
+Orders      : 28336
+Loans       : 9614
+Reviews     : 5621
+Silver Layer
+Books       : 190
+Customers   : 2766
+Orders      : 27354
+Loans       : 9402
+Reviews     : 5454
+Rejected    : 1395
+Gold Layer
+Revenue Growth           : -74.32%  → FAIL
+Customer Retention       : 47.31%   → PASS
+Book Sell-Through        : 100.00%  → PASS
+Return Compliance        : 60.01%   → FAIL
+Review Coverage          : 63.04%   → FAIL
 🗂️ Project Structure
-
 Capstone Project/
 │
 ├── data/
@@ -549,7 +412,6 @@ Capstone Project/
 ├── Dataset_generator.py
 │
 └── README.md
-
 📸 Screenshots & Execution Evidence
 
 Execution evidence is organized by project phase:
@@ -566,133 +428,83 @@ screenshots/
 The screenshots demonstrate:
 
 Database setup
-
 Source data loading
-
 Bronze ingestion
-
 Watermark processing
-
 Silver transformation
-
 Rejected-record handling
-
 Gold KPI results
-
+Customer segmentation
+Top books analysis
 Pipeline health audit
-
 Final PASS/FAIL validation
-
 🛠️ Technologies Used
-
 🐍 Python
-
 🐼 Pandas
-
 🗄️ SQL
-
 🐬 MySQL
-
 🛠️ MySQL Workbench
-
 📄 CSV
-
 🏗️ Medallion Architecture
-
 🔄 Incremental Data Processing
-
 💧 Watermark Processing
-
 🔍 Data Quality Validation
-
 📊 SQL Analytics
-
 🪟 Window Functions
-
 🔗 Common Table Expressions
-
 👁️ SQL Views
-
 🔀 Joins
-
 📈 Aggregations
-
 🌐 Git & GitHub
-
 💡 Key Concepts Demonstrated
 
 This project demonstrates practical understanding of:
 
 Data Engineering pipelines
-
 ETL/ELT concepts
-
 Medallion Architecture
-
 Incremental ingestion
-
 Watermark-based processing
-
 Data quality checks
-
 Data cleaning
-
 Deduplication
-
 Rejected-record handling
-
 SQL analytics
-
 Window functions
-
 Common Table Expressions
-
 Business KPI development
-
 SQL views
-
 Pipeline monitoring
-
 PASS/FAIL validation
-
 Audit reporting
-
 Version control
-
 📁 Important Project Files
-
 Dataset Generation
-
 Dataset_generator.py
 
 Used to generate the CityReads source datasets.
 
 Bronze Ingestion
-
 scripts/bronze_ingestion.py
 
 Implements incremental Bronze ingestion and watermark processing.
 
 Silver Transformation
-
 scripts/silver_transform.py
 
 Performs Silver-layer cleaning, validation and rejected-record handling.
 
 Main SQL Script
-
 sql/cityreads_capstone.sql
 
 Contains the main CityReads SQL implementation.
 
 Gold KPI SQL
-
 sql/gold/gold_kpis.sql
 
 Contains the five Gold-layer business KPI views.
 
 Pipeline Audit SQL
-
 sql/audit/pipeline_health_audit.sql
 
 Contains KPI and pipeline health validation logic.
@@ -702,43 +514,21 @@ Contains KPI and pipeline health validation logic.
 The final project report is available in:
 
 output/
-
 🎓 Internship Details
-
-Field
-
-Information
-
-Organization
-
-Celebal Technologies
-
-Role
-
-Data Engineering Intern
-
-Program
-
-Celebal Technologies Summer Internship 2026
-
-Project
-
-CityReads Data Engineering Capstone Project
-
+Field	Information
+Organization	Celebal Technologies
+Role	Data Engineering Intern
+Program	Celebal Technologies Summer Internship 2026
+Project	CityReads Data Engineering Capstone Project
 👨‍💻 Author
-
 Abhishek Raj
 
 Computer Science Engineering student passionate about:
 
 Data Engineering
-
 Software Development
-
 Cloud Technologies
-
 Artificial Intelligence
-
 GitHub
 
 https://github.com/RjAbhishek185
@@ -768,7 +558,6 @@ The final audit shows that 2 out of 5 KPIs passed, while Monthly Revenue Growth,
 This project demonstrates practical knowledge of modern Data Engineering concepts including data ingestion, transformation, quality validation, SQL analytics, KPI development, monitoring and pipeline auditing.
 
 <div align="center">
-
 ⭐ Thank You for Visiting the CityReads Data Engineering Capstone Project!
 
 Celebal Technologies Summer Internship 2026
