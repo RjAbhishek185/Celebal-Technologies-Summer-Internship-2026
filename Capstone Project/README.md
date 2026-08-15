@@ -162,7 +162,6 @@ Capstone Project/
 │   └── phase7_audit/
 │
 ├── Dataset_generator.py
-├── requirements.txt
 └── README.md
 ```
 
