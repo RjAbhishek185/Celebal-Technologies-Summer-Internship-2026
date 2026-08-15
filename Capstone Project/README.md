@@ -4,11 +4,15 @@
 
 > An end-to-end Data Engineering pipeline implementing **Medallion Architecture, incremental ingestion, data-quality validation, business KPIs, and pipeline health auditing**.
 
----
-
 ## 📌 Overview
 
-**CityReads** is a Data Engineering Capstone Project built during the Celebal Technologies Summer Internship 2026.
+CityReads is a Data Engineering Capstone Project developed as part of the Celebal Technologies Summer Internship 2026.
+
+The project follows:
+
+```text
+Source CSV → Bronze → Silver → Gold → Pipeline Audit
+```
 
 The pipeline processes five datasets:
 
@@ -18,34 +22,16 @@ The pipeline processes five datasets:
 * 📖 Loans
 * ⭐ Reviews
 
-### Architecture
-
-```text
-Source CSV
-    ↓
-🥉 Bronze
-    ↓
-🥈 Silver
-    ↓
-🥇 Gold
-    ↓
-🔍 Pipeline Audit
-```
-
----
-
 ## 🎯 Key Objectives
 
-* Implement incremental data ingestion
-* Maintain watermark-based processing
-* Build Bronze and Silver data layers
-* Perform data cleaning and validation
-* Detect and track rejected records
-* Create business-ready Gold KPIs
-* Validate KPIs against predefined targets
-* Perform automated pipeline health auditing
-
----
+* Incremental data ingestion
+* Watermark-based processing
+* Bronze and Silver layer implementation
+* Data cleaning and validation
+* Rejected-record handling
+* Gold-layer business KPIs
+* KPI target validation
+* Pipeline health auditing
 
 ## 📊 Dataset
 
@@ -57,8 +43,6 @@ Source CSV
 | Loans     |      9,614 |
 | Reviews   |      5,621 |
 | **Total** | **46,561** |
-
----
 
 ## 🥉 Bronze Layer
 
@@ -73,27 +57,11 @@ The Bronze layer performs incremental ingestion using **watermark-based processi
 * Duplicate-ingestion prevention
 * Ingestion metadata
 
-### Validation
-
-A second Bronze execution produced:
-
-```text
-Books       → 0 new rows
-Customers   → 0 new rows
-Orders      → 0 new rows
-Loans       → 0 new rows
-Reviews     → 0 new rows
-
-Total       → 0 new rows
-```
-
-This confirms that previously processed records were not ingested again.
-
----
+A second execution produced **0 new rows** across all five datasets, confirming that previously processed records were not ingested again.
 
 ## 🥈 Silver Layer
 
-The Silver layer converts Bronze data into cleaned and validated datasets.
+The Silver layer cleans and validates Bronze data.
 
 ### Processing
 
@@ -104,7 +72,6 @@ The Silver layer converts Bronze data into cleaned and validated datasets.
 * Business-rule validation
 * Duplicate detection
 * Rejected-record handling
-* Derived columns
 
 ### Results
 
@@ -119,13 +86,11 @@ The Silver layer converts Bronze data into cleaned and validated datasets.
 
 **Rejected Records: 1,395**
 
-Rejected records are stored with the source table, source ID, rejection reason, and timestamp.
-
----
+Rejected records are stored separately with source information, rejection reason, and timestamp.
 
 ## 🥇 Gold Layer
 
-The Gold layer contains business-ready SQL views and analytics.
+The Gold layer contains business-ready analytics and KPI calculations.
 
 ### KPIs
 
@@ -145,13 +110,11 @@ The Gold layer contains business-ready SQL views and analytics.
 | Return Compliance  |  60.01% | 80.00% | ❌ FAIL |
 | Review Coverage    |  63.04% | 80.00% | ❌ FAIL |
 
-The failed KPIs are intentionally retained to demonstrate **real business exception detection** rather than hiding or modifying unfavorable results.
-
----
+The failed KPIs are intentionally retained to demonstrate **real business exception detection**.
 
 ## 🔍 Pipeline Health Audit
 
-The SQL-based audit validates:
+The final audit validates:
 
 * Bronze ingestion
 * Silver record counts
@@ -161,8 +124,6 @@ The SQL-based audit validates:
 * PASS/FAIL status
 * Overall pipeline health
 
-### Final Status
-
 ```text
 Total KPIs   : 5
 Passed KPIs  : 2
@@ -170,9 +131,7 @@ Failed KPIs  : 3
 Overall      : FAIL
 ```
 
-The `FAIL` status represents business KPIs below their targets; it does not necessarily indicate a technical pipeline failure.
-
----
+The `FAIL` status represents KPIs that are below their business targets and does not necessarily indicate a technical pipeline failure.
 
 ## 🗂️ Project Structure
 
@@ -191,8 +150,7 @@ Capstone Project/
 │
 ├── sql/
 │   ├── cityreads_capstone.sql
-│   ├── gold_kpis.sql
-│   └── pipeline_health_audit.sql
+│   └── final_pipeline_audit.sql
 │
 ├── screenshots/
 │   ├── phase1/
@@ -208,24 +166,13 @@ Capstone Project/
 └── README.md
 ```
 
----
-
 ## 🛠️ Technologies
 
-| Technology      | Purpose                         |
-| --------------- | ------------------------------- |
-| Python          | Data ingestion & transformation |
-| Pandas          | Data processing                 |
-| MySQL           | Data storage & analytics        |
-| MySQL Workbench | SQL development                 |
-| SQL             | Transformations & KPIs          |
-| Git & GitHub    | Version control                 |
+**Python • Pandas • MySQL • MySQL Workbench • SQL • CSV • Git & GitHub**
 
 ### Key Concepts
 
 **ETL/ELT • Medallion Architecture • Incremental Ingestion • Watermarks • Data Validation • Deduplication • Data Quality • SQL Analytics • CTEs • Window Functions • SQL Views • KPI Monitoring • Pipeline Auditing**
-
----
 
 ## ▶️ How to Run
 
@@ -253,31 +200,20 @@ python scripts/bronze_ingestion.py
 python scripts/silver_transform.py
 ```
 
-### 5. Run Gold SQL
+### 5. Execute SQL
 
-Open:
-
-```text
-sql/gold_kpis.sql
-```
-
-in MySQL Workbench.
-
-### 6. Run Pipeline Audit
-
-Open:
+Run the following scripts in **MySQL Workbench**:
 
 ```text
-sql/pipeline_health_audit.sql
+sql/cityreads_capstone.sql
+sql/final_pipeline_audit.sql
 ```
 
-in MySQL Workbench.
-
----
+`final_pipeline_audit.sql` contains the **Gold KPI calculations and final pipeline health audit**.
 
 ## 📸 Execution Evidence
 
-Screenshots are organized by pipeline phase and demonstrate:
+Screenshots are organized by project phase and provide evidence of:
 
 * Database setup
 * Data loading
@@ -289,16 +225,14 @@ Screenshots are organized by pipeline phase and demonstrate:
 * Analytics
 * Pipeline health audit
 
----
+## 🎓 Internship Details
 
-## 🎓 Internship
-
-**Organization:** Celebal Technologies
-**Role:** Data Engineering Intern
-**Program:** Celebal Technologies Summer Internship 2026
-**Project:** CityReads Data Engineering Capstone Project
-
----
+| Field        | Information                                 |
+| ------------ | ------------------------------------------- |
+| Organization | Celebal Technologies                        |
+| Role         | Data Engineering Intern                     |
+| Program      | Celebal Technologies Summer Internship 2026 |
+| Project      | CityReads Data Engineering Capstone Project |
 
 ## 👨‍💻 Author
 
@@ -306,11 +240,9 @@ Screenshots are organized by pipeline phase and demonstrate:
 
 Computer Science Engineering Student
 
-**GitHub:** [RjAbhishek185](https://github.com/RjAbhishek185)
+**GitHub:** https://github.com/RjAbhishek185
 
-**LinkedIn:** [Abhishek Raj](https://www.linkedin.com/in/abhishek-raj-1589a62a1/)
-
----
+**LinkedIn:** https://www.linkedin.com/in/abhishek-raj-1589a62a1/
 
 ## 🚀 Conclusion
 
@@ -330,6 +262,4 @@ Audit — KPI & Pipeline Validation
 
 The project demonstrates practical Data Engineering concepts including **incremental processing, data quality, SQL analytics, KPI monitoring, and transparent pipeline auditing**.
 
-### Final KPI Result
-
-**2/5 KPIs passed and 3/5 require improvement**, with the failures intentionally reported to demonstrate real business exception detection.
+**Final Result: 2/5 KPIs passed and 3/5 require improvement.**
