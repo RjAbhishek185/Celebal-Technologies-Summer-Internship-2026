@@ -10,11 +10,7 @@ sql/
 │
 ├── 📄 cityreads_capstone.sql
 │
-├── 📁 gold/
-│   └── 📄 gold_kpis.sql
-│
-└── 📁 audit/
-    └── 📄 pipeline_health_audit.sql
+├── 📄final_pipeline_audit.sql
 ````
 
 ## 📄 Main SQL Script
